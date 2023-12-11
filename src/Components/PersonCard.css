@@ -1,0 +1,26 @@
+.person-card{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+/*justify-content: center;*/
+    justify-content: space-around;
+    border: 2px solid #ddd; /* Ширина и цвет границы */
+    padding: 10px; /* Добавление отступа внутри контейнера */
+    margin: 10px;
+    text-align: center;
+}
+.class-text{
+    text-align: center;
+    width: 450px;
+}
+.class-text h2{
+    width: 450px;
+}
+p{
+    width: 450px;
+}
+.images{
+    width: 250px;
+    height: 250px;
+}
