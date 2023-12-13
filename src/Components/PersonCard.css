@@ -4,12 +4,16 @@
     display: flex;
     flex-wrap: wrap;
 /*justify-content: center;*/
-    justify-content: space-around;
-    border: 2px solid #ddd; /* Ширина и цвет границы */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #4e4e50; /* Ширина и цвет границы */
+    border-radius: 7px;
     padding: 10px; /* Добавление отступа внутри контейнера */
-    margin: 10px;
     text-align: center;
+    background: #4e4e50;
 }
+.person-card
 .class-text{
     text-align: center;
     width: 450px;

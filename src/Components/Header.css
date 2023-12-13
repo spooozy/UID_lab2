@@ -1,0 +1,25 @@
+
+.app-header h1{
+    color:#950740;
+    margin-left: 5%;
+    cursor: default;
+}
+.app-header a{
+    color:#c3073f ;
+}
+.app-header a:hover
+{
+    border-bottom: #6f2232 2px solid;
+    box-sizing: border-box;
+}
+nav{
+    height: calc(1.5em*2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+nav a{
+    margin-left: 10%;
+    font-size: 1.5em;
+}
