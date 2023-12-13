@@ -4,7 +4,7 @@ import './ProgCard.css';
 
 const PersonCard = ({ person }) => {
     const { id, name, linkGH, img } = person;
-
+    {/* Здесь я не понял, откуда базу читаем. Полагаю, что ниоткуда. Её надо будет сделать, используем json. */}
     return (
         <div className="prog-card">
             <h2>{name}</h2>
