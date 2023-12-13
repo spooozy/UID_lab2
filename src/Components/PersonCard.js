@@ -9,7 +9,7 @@ const PersonCard = ({ person }) => {
         <div className="person-card">
             <div className="class-text">
                 <h2>{name}</h2>
-                <p>Years: {years}</p>
+                <p>Years: {years}</p>{/*Заменить на https://reactjsexample.com/a-vertical-timeline-component-for-react/ ...*/}
             </div>
 
             <img src={img} className={"images"}/>
