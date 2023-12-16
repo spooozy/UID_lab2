@@ -14,8 +14,6 @@ const App = () => {
     const dayIndex = Math.floor(currentTimeMillis / (1000 * 60 * 60 * 24)) % 5;
 // Получение данных выбранной персоны
     const selectedPerson = peopleData[dayIndex];
-
-
     return (
         <div className="app">
             <Header />
