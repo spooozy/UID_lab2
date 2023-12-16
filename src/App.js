@@ -12,7 +12,10 @@ const App = () => {
 
 // Преобразуем миллисекунды в дни и берем остаток от деления на 5
     const dayIndex = Math.floor(currentTimeMillis / (1000 * 60 * 60 * 24)) % 5;
-    const selectedPerson = peopleData.find(person => person.id === dayIndex);
+// Получение данных выбранной персоны
+    const selectedPerson = peopleData[dayIndex];
+
+
     return (
         <div className="app">
             <Header />
