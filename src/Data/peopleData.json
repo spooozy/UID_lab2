@@ -3,15 +3,15 @@
     "id": 1,
     "name": "Илон Маск",
     "years": "1971-",
-    "img": "Images/ElonMask/MaskMain.jpg",
+    "img": "/Images/ElonMask/MaskMain.jpg",
     "link": "#",
     "linkOnVideo": "link",
     "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
     "gallery": [
       {
-        "img1": "Images/ElonMask/MaskYoung.jpg",
-        "img2": "Images/ElonMask/MaskOlder.jpg",
-        "img3": "Images/ElonMask/MaskOld.jpg"
+        "img1": "/Images/ElonMask/MaskYoung.jpg",
+        "img2": "/Images/ElonMask/MaskOlder.jpg",
+        "img3": "/Images/ElonMask/MaskOld.jpg"
       }
     ],
     "biography": [
@@ -42,15 +42,15 @@
     "id": 2,
     "name": "Джефф Безос",
     "years": "1964",
-    "img": "Images/JeffBezos/BezosMain",
+    "img": "/Images/JeffBezos/BezosMain",
     "link": "#",
     "linkOnVideo": "link",
     "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
     "gallery": [
       {
-        "img1": "Images/JeffBezos/BezosYoung.jpg",
-        "img2": "Images/JeffBezos/BezosOlder.jpg",
-        "img3": "Images/JeffBezos/BezosOLD.jpg"
+        "img1": "/Images/JeffBezos/BezosYoung.jpg",
+        "img2": "/Images/JeffBezos/BezosOlder.jpg",
+        "img3": "/Images/JeffBezos/BezosOLD.jpg"
       }
     ],
     "biography": [
@@ -82,15 +82,15 @@
     "id": 1,
     "name": "Генри Форд",
     "years": "1863-1947",
-    "img": "Images/HenryFord/FordMain.jpg",
+    "img": "/Images/HenryFord/FordMain.jpg",
     "link": "#",
     "linkOnVideo": "link",
     "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
     "gallery": [
       {
-        "img1": "Images/HenryFord/FordYoung.jpg",
-        "img2": "Images/HenryFord/FordOlder.jpg",
-        "img3": "Images/HenryFord/FordOLD.jpg"
+        "img1": "/Images/HenryFord/FordYoung.jpg",
+        "img2": "/Images/HenryFord/FordOlder.jpg",
+        "img3": "/Images/HenryFord/FordOLD.jpg"
       }
     ],
     "biography": [
@@ -124,15 +124,15 @@
     "id": 1,
     "name": "Дэвид Рокфеллер",
     "years": "1915-2017",
-    "img": "Images/DavidRockefeller/RockefellerMain.jpg",
+    "img": "/Images/DavidRockefeller/RockefellerMain.jpg",
     "link": "#",
     "linkOnVideo": "link",
     "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
     "gallery": [
       {
-        "img1": "Images/DavidRockefeller/RockefellerYoung.jpg",
-        "img2": "Images/DavidRockefeller/RockefellerOlder.jpg",
-        "img3": "Images/DavidRockefeller/RockefellerOLD.jpg"
+        "img1": "/Images/DavidRockefeller/RockefellerYoung.jpg",
+        "img2": "/Images/DavidRockefeller/RockefellerOlder.jpg",
+        "img3": "/Images/DavidRockefeller/RockefellerOLD.jpg"
       }
     ],
     "biography": [
@@ -166,15 +166,15 @@
     "id": 1,
     "name": "Билл Гейтс",
     "years": "1955-",
-    "img": "Images/BillGates/GatesMain.jpg",
+    "img": "/Images/BillGates/GatesMain.jpg",
     "link": "#",
     "linkOnVideo": "link",
     "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
     "gallery": [
       {
-        "img1": "Images/BillGates/GatesYoung.jpg",
-        "img2": "Images/BillGates/GatesOlder.jpg",
-        "img3": "Images/BillGates/GatesReallyOld.jpg"
+        "img1": "/Images/BillGates/GatesYoung.jpg",
+        "img2": "/Images/BillGates/GatesOlder.jpg",
+        "img3": "/Images/BillGates/GatesReallyOld.jpg"
       }
     ],
     "biography": [

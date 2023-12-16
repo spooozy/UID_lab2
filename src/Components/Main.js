@@ -13,7 +13,7 @@ const Main = ({person})=>{
                     </h2>
                     <p>Годы жизни: {years}</p>
                 </div>
-                <img src={img} className={"day-image"}/>
+                <img src={process.env.PUBLIC_URL + img} className={"day-image"}/>
                 <a href = {link} target="_blank" rel="noopener noreferrer">
                     Learn more
                 </a>

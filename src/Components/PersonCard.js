@@ -12,7 +12,7 @@ const PersonCard = ({ person }) => {
                 <p>Years: {years}</p>{/*Заменить на https://reactjsexample.com/a-vertical-timeline-component-for-react/ ...*/}
             </div>
 
-            <img src={img} className={"images"}/>
+            <img src={process.env.PUBLIC_URL + img} className={"images"}/>
             <a href = {link} target="_blank" rel="noopener noreferrer">
                 Learn more
             </a>
