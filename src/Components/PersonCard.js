@@ -3,7 +3,7 @@ import React from 'react';
 import './PersonCard.css';
 
 const PersonCard = ({ person }) => {
-    const { id,name, years, img, link } = person;
+    const { name, years, img, link } = person;
 
     return (
         <div className="person-card">

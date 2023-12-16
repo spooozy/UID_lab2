@@ -2,23 +2,24 @@
 import React from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import PersonCard from './Components/PersonCard';
 import peopleData from './Data/peopleData.json';// Хочу, чтобы все данные хранились в json'ах. Почему? Потому что так принято в мире. +Говорят, что так потом проще данные обрабатывать
 import './App.css';
+import Main from './Components/Main';
 
 const App = () => {
+
+    const currentTimeMillis = Date.now();
+
+// Преобразуем миллисекунды в дни и берем остаток от деления на 5
+    const dayIndex = Math.floor(currentTimeMillis / (1000 * 60 * 60 * 24)) % 5;
+    const selectedPerson = peopleData.find(person => person.id === dayIndex);
     return (
         <div className="app">
             <Header />
-            <main>
-                <div className="person-cards">
-                    {peopleData.map(person => (
-                        <PersonCard key={person.id} person={person} />
-                    ))}
-                </div>
 
-                {/*если что это просто демонстрация че есть код в этом файле будет другой пример по ссылке в грппе*/}
-            </main>
+            <div>
+                <Main person={selectedPerson} />
+            </div>
             <Footer />
         </div>
     );
