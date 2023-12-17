@@ -6,9 +6,7 @@ import Footer from './Components/Footer';
 import PersonCard from './Components/PersonCard';
 import Main from './Components/Main';
 import peopleData from './Data/peopleData.json';
-
 import './App.css';
-import Main from './Components/Main';
 
 const App = () => {
 
