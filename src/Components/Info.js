@@ -3,6 +3,10 @@ import './Info.css';
 const Info = () => {
     return (
     <>
+
+        <div class = "wall">
+            <h1>СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ</h1>
+        </div>
         <div class = "red_line"></div>
         <div class = "info_wrapper">
         <h1>ИНФОРМАЦИЯ</h1>

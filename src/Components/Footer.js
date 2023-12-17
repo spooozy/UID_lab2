@@ -8,7 +8,7 @@ const Footer = () => {
     return (
     <>
         <footer className="app-footer">
-        <dev_text>САЙТ РАЗРАБАТЫВАЛИ:</dev_text>
+        <h1>САЙТ РАЗРАБАТЫВАЛИ</h1>
             <div className={"prog-card-container"}>
                 {ProgDetails.map(person=>(<ProgCard key={person.id} person={person}/>))}
             </div>

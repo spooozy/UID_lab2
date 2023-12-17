@@ -11,17 +11,13 @@ const Main = () => {
                     src = {temp_pict}
                     alt = "temp"
                 />
-            <right_side>
-            <persons_bio>
+            <div class = "persons_bio">
                 <h3>Name</h3>
                 <h3>Years</h3>
-                <p>Short info</p>
-
-            </persons_bio>
-            <button>ПОДРОБДНЕЕ</button>
-            </right_side>
+                <h4>Short info</h4>
+                <button>ПОДРОБДНЕЕ</button>
             </div>
-
+            </div>
         </div>
     </>
     );
