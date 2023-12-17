@@ -2,7 +2,7 @@ import React from "react";
 import Gallery from "../Components/Gallery";
 import TimeLine from "../Components/Hrono";
 
-const Info = ({ person }) => {
+const PersonInfo = ({ person }) => {
     const { name, years, img, gallery, biography } = person;
 
     return (
@@ -22,4 +22,4 @@ const Info = ({ person }) => {
 
 );
 };
-export default Info;
+export default PersonInfo;

@@ -4,9 +4,10 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import peopleData from './Data/peopleData.json';
 import person from './Components/PersonCard';
+import Info from "./Components/Info";
 import './App.css';
 import Main from './Components/Main';
-import Info from "./Pages/PersonInfo";
+import PersonInfo from "./Pages/PersonInfo";
 import ListOfPerson from "./Pages/ListOfPerson";
 import {
     Route,
@@ -35,10 +36,11 @@ const App = () => {
         <Router>
             <div className="app">
                 <Header />
+                <Info/>
                 <Routes>
                     <Route exact path="/UID_lab2" element={<Main person={selectedPerson} />} />
                     <Route path="/ListOfPerson" element={<ListOfPerson/>} />
-                    <Route path="/PersonInfo" element={<Info person={selectedPerson}/>} />
+                    <Route path="/PersonInfo" element={<PersonInfo person={selectedPerson}/>} />
                 </Routes>
                 <Footer />
             </div>
