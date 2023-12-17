@@ -4,7 +4,7 @@ import './Footer.css';
 import ProgDetails from '../Data/progDetails.json';
 import ProgCard from "./ProgCard";
 const Footer = () => {
-
+    {/*successful merge? */}
     return (
     <>
         <footer className="app-footer">
