@@ -8,7 +8,7 @@ const PersonCard = ({ person }) => {
     return (
         <div className="prog-card">
             <h2>{name}</h2>
-            <img src={img} className={"progimages"}/>
+            <img src={process.env.PUBLIC_URL + img} className={"progimages"}/>
             <a href = {linkGH} target="_blank" rel="noopener noreferrer">
                 Go on GIT
             </a>

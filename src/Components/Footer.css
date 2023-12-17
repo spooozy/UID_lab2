@@ -5,3 +5,11 @@
     /*grid-template-columns: 1fr 1fr 1fr;*/
     justify-content:space-evenly;
 }
+
+dev_text{
+    color:#670101;
+    font-weight:bold;
+    font-size:1.5rem;
+    margin-left:3.5rem;
+    margin-bottom:3rem;
+}

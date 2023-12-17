@@ -9,10 +9,10 @@ const PersonCard = ({ person }) => {
         <div className="person-card">
             <div className="class-text">
                 <h2>{name}</h2>
-                <p>Years: {years}</p>{/*Заменить на https://reactjsexample.com/a-vertical-timeline-component-for-react/ ...*/}
+                <p>Years: {years}</p>
             </div>
 
-            <img src={img} className={"images"}/>
+            <img src={process.env.PUBLIC_URL + img} className={"images"}/>
             <a href = {link} target="_blank" rel="noopener noreferrer">
                 Learn more
             </a>

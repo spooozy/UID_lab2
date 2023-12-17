@@ -1,0 +1,11 @@
+.vertical-timeline-element img{
+    height: 50px; /* Задайте желаемую высоту */
+    width: auto; /* Разрешите ширину подстраиваться автоматически */
+}
+.vertical-timeline-element-content {
+    background: #f7f7f7; /* Цвет фона */
+    color: #333; /* Цвет текста */
+    border-radius: 10px; /* Скругление углов */
+    padding: 20px; /* Отступы */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Тень */
+}

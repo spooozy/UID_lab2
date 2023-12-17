@@ -1,30 +1,50 @@
 // src/App.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import peopleData from './Data/peopleData.json';// Хочу, чтобы все данные хранились в json'ах. Почему? Потому что так принято в мире. +Говорят, что так потом проще данные обрабатывать
+import peopleData from './Data/peopleData.json';
+import person from './Components/PersonCard';
+import Info from "./Components/Info";
 import './App.css';
 import Main from './Components/Main';
+import PersonInfo from "./Pages/PersonInfo";
+import ListOfPerson from "./Pages/ListOfPerson";
+import {
+    Route,
+    Routes,
+    BrowserRouter as Router,
+} from "react-router-dom";
+import PersonCard from "./Components/PersonCard";
 
 const App = () => {
 
     const currentTimeMillis = Date.now();
+    const initialIndex = Math.floor(currentTimeMillis / (1000 * 60*60*24)) % 5;
+    const [selectedPerson, setSelectedPerson] = useState(peopleData[initialIndex]);//начальное значение
 
-// Преобразуем миллисекунды в дни и берем остаток от деления на 5
-    const dayIndex = Math.floor(currentTimeMillis / (1000 * 60 * 60 * 24)) % 5;
-// Получение данных выбранной персоны
-    const selectedPerson = peopleData[dayIndex];
+        useEffect(() => {
+            const interval = setInterval(() => {
+                const currentTimeMillis = Date.now();
+                const minuteIndex = Math.floor(currentTimeMillis / (1000 * 60*60*24)) % 5;
+                setSelectedPerson(peopleData[minuteIndex]);
+            }, 1000); // Обновлять каждую секунду (в миллисекундах)
 
+            return () => clearInterval(interval); // Остановить интервал при размонтировании компонента
+        }, []);
 
     return (
-        <div className="app">
-            <Header />
-
-            <div>
-                <Main person={selectedPerson} />
+        <Router>
+            <div className="app">
+                <Header />
+                <Info/>
+                <Routes>
+                    <Route exact path="/UID_lab2" element={<Main person={selectedPerson} />} />
+                    <Route path="/ListOfPerson" element={<ListOfPerson/>} />
+                    <Route path="/PersonInfo" element={<PersonInfo person={selectedPerson}/>} />
+                </Routes>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </Router>
     );
 };
 
