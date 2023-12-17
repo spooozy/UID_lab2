@@ -1,9 +1,11 @@
 .prog-card{
-    width: 10rem;
-    height: 12rem;
+    width: 12rem;
+    height: 15rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
     border: 2px solid #670101;
     padding: 7px;
     margin-top: 2rem;
@@ -25,3 +27,4 @@
     color:#670101;
     font-size:1rem;
 }
+
