@@ -1,13 +1,5 @@
-body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #f0f0f0; /* Задайте цвет фона по вашему желанию */
-}
 
-.pers-day-card {
+.person-card {
     width: 650px;
     height: 650px;
     display: flex;
@@ -20,6 +12,7 @@ body {
     padding: 10px;
     text-align: center;
     background: #fff;
+    color:#000;
 }
 
 .pers-day-card .class-text {
@@ -34,8 +27,8 @@ body {
 p {
     width: 650px;
 }
+.person-card img{
+    height: 500px;
 
-.day-image {
-    width: 600px;
-    height: 600px;
 }
+

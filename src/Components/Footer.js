@@ -9,6 +9,7 @@ const Footer = () => {
     <>
         <footer className="app-footer">
         <h1>САЙТ РАЗРАБАТЫВАЛИ</h1>
+
             <div className={"prog-card-container"}>
                 {ProgDetails.map(person=>(<ProgCard key={person.id} person={person}/>))}
             </div>

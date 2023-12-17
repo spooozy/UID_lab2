@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './Header.css';
+
 import logo from '../Images/logo.png';
 import lang from '../Images/lang.png';
 import bars from '../Images/bars.png';
+import {Link } from 'react-router-dom'
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -22,10 +25,8 @@ const Header = () => {
                         alt="logo"
                     />
                     <ul className="links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
-                        <li><a href="#list">List</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/ListOfPerson">List of person</Link></li>
                     </ul>
                     <div className="lang_ch">
                         <img
@@ -40,6 +41,7 @@ const Header = () => {
                         </img>
                     </div>
                 </div>
+
 
                 {isOpen && (
                     <div className="dropdown_menu">
