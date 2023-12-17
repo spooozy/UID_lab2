@@ -1,12 +1,18 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
-import Info from './Components/Info';
 import Footer from './Components/Footer';
-import PersonCard from './Components/PersonCard';
-import Main from './Components/Main';
 import peopleData from './Data/peopleData.json';
+import Info from "./Components/Info";
 import './App.css';
+import Main from './Components/Main';
+import PersonInfo from "./Pages/PersonInfo";
+import ListOfPerson from "./Pages/ListOfPerson";
+import {
+    Route,
+    Routes,
+    HashRouter,
+} from "react-router-dom";
 
 const App = () => {
 
@@ -23,14 +29,19 @@ const App = () => {
 
             return () => clearInterval(interval); // Остановить интервал при размонтировании компонента
         }, []);
-
-        return (
-        <div className="app">
-            <Header />
-            <Info />
-            <Main person={selectedPerson} />
-            <Footer />
-        </div>
+    return (
+        <HashRouter>
+            <div className="app">
+                <Header />
+                <Info/>
+                <Routes>
+                    <Route exact path="/" element={<Main person={selectedPerson} />} />
+                    <Route path="/ListOfPerson" element={<ListOfPerson/>} />
+                    <Route path="/PersonInfo/:id" element={<PersonInfo person={selectedPerson}/>} />
+                </Routes>
+                <Footer />
+            </div>
+        </HashRouter>
     );
 };
 
