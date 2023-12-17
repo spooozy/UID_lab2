@@ -1,7 +1,7 @@
 // src/components/Footer.js
 import React from 'react';
 import './Footer.css';
-import ProgDetails from '../Data/ProgDetails';
+import ProgDetails from '../Data/progDetails.json';
 import ProgCard from "./ProgCard";
 const Footer = () => {
 
