@@ -1,10 +1,12 @@
 import React from "react";
 import Gallery from "../Components/Gallery";
 import TimeLine from "../Components/Hrono";
-
-const PersonInfo = ({ person }) => {
-    const { name, years, img, gallery, biography } = person;
-
+import {useParams} from "react-router-dom";
+import peopleData from "../Data/peopleData.json"
+const PersonInfo = () => {
+    const {id} = useParams();
+    const selectedPerson=peopleData[id];
+    const { name, years, img, gallery, biography } = selectedPerson;
     return (
         <>
             <div className="cont">

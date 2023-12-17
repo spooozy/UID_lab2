@@ -1,9 +1,16 @@
 import React from 'react';
 import './Main.css'; // импорт стилей из верхнего сегмента
 import temp_pict from '../Images/temp_pict.jpg'; // импорт изображения
+import {Link} from 'react-router-dom'
+import people from '../Data/peopleData.json'
+import { useHistory } from 'react-router-dom';
+
+
+
 
 const Main = ({ person }) => {
-    const { name, years, img, biography } = person;
+
+    const { id, name, years, img, biography } = person;
     const { text} = biography[0];
     return (
         <>
@@ -17,7 +24,9 @@ const Main = ({ person }) => {
                             <h3>{years}</h3>
                             <p>{text}</p>
                         </persons_bio>
-                        <button ><a href="/PersonInfo">ПОДРОБНЕЕ</a></button>
+                        <Link to={`/PersonInfo/${id}`}>
+                        <button>ПОДРОБНЕЕ</button>
+                        </Link>
                     </right_side>
                 </div>
             </div>

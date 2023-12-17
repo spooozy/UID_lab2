@@ -1,9 +1,10 @@
 // src/components/PersonCard.js
 import React from 'react';
 import './PersonCard.css';
+import {Link} from "react-router-dom";
 
 const PersonCard = ({ person }) => {
-    const { name, years, img, link } = person;
+    const {id, name, years, img, link } = person;
 
     return (
         <div className="person-card">
@@ -13,9 +14,9 @@ const PersonCard = ({ person }) => {
             </div>
 
             <img src={process.env.PUBLIC_URL + img} className={"images"}/>
-            <a href = {link} target="_blank" rel="noopener noreferrer">
+            <Link  id ={id} to = {link} target="_blank" rel="noopener noreferrer">
                 Learn more
-            </a>
+            </Link>
         </div>
     );
 };

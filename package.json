@@ -1,7 +1,7 @@
 {
   "name": "try3",
   "version": "0.1.0",
-  "homepage": "https://krilop.github.io/UID_lab2",
+  "homepage": "https://krilop.github.io/UID_lab2/#/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

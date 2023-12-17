@@ -3,6 +3,7 @@ import React from 'react';
 import './Header.css';
 import logo from '../Images/logo.png'
 import lang from '../Images/lang.png'
+import {Link } from 'react-router-dom'
 const Header = () => {
     return (
         <header class="app-header">
@@ -18,11 +19,11 @@ const Header = () => {
                                 alt = "logo"
                             />
                             <ul class = "links">
-                                <li><a href="/UID_lab2">Home</a></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li> <a href="#about">About</a></li>
                                 <li><a href="#search">Search</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><a href="/ListOfPerson">List of person</a></li>
+                                <li><Link to="/ListOfPerson">List of person</Link></li>
                             </ul>
                             <div class = "lang_ch">
                                 <img

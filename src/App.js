@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import peopleData from './Data/peopleData.json';
-import person from './Components/PersonCard';
 import Info from "./Components/Info";
 import './App.css';
 import Main from './Components/Main';
@@ -12,9 +11,8 @@ import ListOfPerson from "./Pages/ListOfPerson";
 import {
     Route,
     Routes,
-    BrowserRouter as Router,
+    HashRouter,
 } from "react-router-dom";
-import PersonCard from "./Components/PersonCard";
 
 const App = () => {
 
@@ -31,20 +29,19 @@ const App = () => {
 
             return () => clearInterval(interval); // Остановить интервал при размонтировании компонента
         }, []);
-
     return (
-        <Router>
+        <HashRouter>
             <div className="app">
                 <Header />
                 <Info/>
                 <Routes>
-                    <Route exact path="/UID_lab2" element={<Main person={selectedPerson} />} />
+                    <Route exact path="/" element={<Main person={selectedPerson} />} />
                     <Route path="/ListOfPerson" element={<ListOfPerson/>} />
-                    <Route path="/PersonInfo" element={<PersonInfo person={selectedPerson}/>} />
+                    <Route path="/PersonInfo/:id" element={<PersonInfo person={selectedPerson}/>} />
                 </Routes>
                 <Footer />
             </div>
-        </Router>
+        </HashRouter>
     );
 };
 
