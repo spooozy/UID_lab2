@@ -1,14 +1,27 @@
 .prog-card{
-    width: 200px;
+    width: 10rem;
+    height: 12rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid #ddd; /* Ширина и цвет границы */
-    padding: 10px; /* Добавление отступа внутри контейнера */
-    margin: 10px;
+    border: 2px solid #670101;
+    padding: 7px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+    border-radius:6px;
 }
 .progimages{
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    height: 70%;
+}
+
+.prog-card h2{
+   color:#670101;
+   font-size:1rem;
+}
+
+.prog-card a{
+    color:#670101;
+    font-size:1rem;
 }
