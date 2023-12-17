@@ -1,8 +1,12 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
+import Info from './Components/Info';
 import Footer from './Components/Footer';
+import PersonCard from './Components/PersonCard';
+import Main from './Components/Main';
 import peopleData from './Data/peopleData.json';
+
 import './App.css';
 import Main from './Components/Main';
 
@@ -25,10 +29,8 @@ const App = () => {
         return (
         <div className="app">
             <Header />
-
-            <div>
-                <Main person={selectedPerson} />
-            </div>
+            <Info />
+            <Main person={selectedPerson} />
             <Footer />
         </div>
     );
