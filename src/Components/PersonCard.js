@@ -15,7 +15,7 @@ const PersonCard = ({ person }) => {
 
             <img src={process.env.PUBLIC_URL + img} className={"images"}/>
             <Link to = {`/PersonInfo/${id}`} target="_blank" rel="noopener noreferrer">
-                Learn more
+               <button >Learn more</button>
             </Link>
         </div>
     );
