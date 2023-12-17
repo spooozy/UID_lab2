@@ -13,6 +13,7 @@ function ListOfPerson() {
         <main>
             <div className="card-container">
             {dataArray.map(person => (
+                console.log(person.id),
                 <PersonCard key={person.id} person={person} />
             ))}
             </div>

@@ -12,6 +12,17 @@ const Main = ({ person }) => {
 
     const { id, name, years, img, biography } = person;
     const { text} = biography[0];
+    const scrollToTop = () => {
+        const scrollStep = -window.scrollY / (1000 / 80); // 1000 - время прокрутки в миллисекундах, 15 - чем меньше, тем медленнее
+        const scrollInterval = setInterval(() => {
+            if (window.scrollY !== 0) {
+                window.scrollBy(0, scrollStep);
+            } else {
+                clearInterval(scrollInterval);
+            }
+        }, 15);
+    };
+
     return (
         <>
             <div className="person_wrapper">
@@ -24,8 +35,8 @@ const Main = ({ person }) => {
                             <h3>{years}</h3>
                             <p>{text}</p>
                         </persons_bio>
-                        <Link to={`/PersonInfo/${id}`}>
-                        <button>ПОДРОБНЕЕ</button>
+                        <Link  to={`/PersonInfo/${id}`}>
+                        <button onClick={scrollToTop}>ПОДРОБНЕЕ</button>
                         </Link>
                     </right_side>
                 </div>

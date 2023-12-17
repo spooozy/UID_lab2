@@ -10,7 +10,7 @@ const Header = () => {
             <nav>
                 {
                     <>
-                        <div class = "menu_back"> </div>
+                        <div class = "menu_back" id="start"> </div>
                         <menu>
                             <img
                                 src = {logo}
@@ -20,9 +20,6 @@ const Header = () => {
                             />
                             <ul class = "links">
                                 <li><Link to="/">Home</Link></li>
-                                <li> <a href="#about">About</a></li>
-                                <li><a href="#search">Search</a></li>
-                                <li><a href="#contact">Contact</a></li>
                                 <li><Link to="/ListOfPerson">List of person</Link></li>
                             </ul>
                             <div class = "lang_ch">
