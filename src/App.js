@@ -1,14 +1,19 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
-import Info from './Components/Info';
 import Footer from './Components/Footer';
-import PersonCard from './Components/PersonCard';
-import Main from './Components/Main';
 import peopleData from './Data/peopleData.json';
-
+import person from './Components/PersonCard';
 import './App.css';
 import Main from './Components/Main';
+import Info from "./Pages/PersonInfo";
+import ListOfPerson from "./Pages/ListOfPerson";
+import {
+    Route,
+    Routes,
+    BrowserRouter as Router,
+} from "react-router-dom";
+import PersonCard from "./Components/PersonCard";
 
 const App = () => {
 
@@ -26,13 +31,18 @@ const App = () => {
             return () => clearInterval(interval); // Остановить интервал при размонтировании компонента
         }, []);
 
-        return (
-        <div className="app">
-            <Header />
-            <Info />
-            <Main person={selectedPerson} />
-            <Footer />
-        </div>
+    return (
+        <Router>
+            <div className="app">
+                <Header />
+                <Routes>
+                    <Route exact path="/UID_lab2" element={<Main person={selectedPerson} />} />
+                    <Route path="/ListOfPerson" element={<ListOfPerson/>} />
+                    <Route path="/PersonInfo" element={<Info person={selectedPerson}/>} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
     );
 };
 

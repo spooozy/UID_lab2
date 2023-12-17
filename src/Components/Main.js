@@ -3,21 +3,21 @@ import './Main.css'; // импорт стилей из верхнего сегм
 import temp_pict from '../Images/temp_pict.jpg'; // импорт изображения
 
 const Main = ({ person }) => {
-    const { name, years, img, link } = person;
-
+    const { name, years, img, biography } = person;
+    const { text} = biography[0];
     return (
         <>
             <div className="person_wrapper">
                 <h1>ДЕЯТЕЛЬ ДНЯ</h1>
                 <div className="persons_info">
-                    <img src={temp_pict} alt="temp" />
+                    <img src={process.env.PUBLIC_URL + img} alt="temp" />
                     <right_side>
                         <persons_bio>
                             <h3>{name}</h3>
                             <h3>{years}</h3>
-                            <p>Short info</p>
+                            <p>{text}</p>
                         </persons_bio>
-                        <button>ПОДРОБНЕЕ</button>
+                        <button ><a href="/PersonInfo">ПОДРОБНЕЕ</a></button>
                     </right_side>
                 </div>
             </div>

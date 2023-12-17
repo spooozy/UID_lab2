@@ -7,34 +7,36 @@ const Header = () => {
     return (
         <header class="app-header">
             <nav>
-               {
-               <>
-               <div class = "menu_back"> </div>
-               <menu>
-               <img
-                    src = {logo}
-                    height = "45"
-                    width = "auto"
-                    alt = "logo"
-               />
-                   <ul class = "links">
-                     <li><a href="#home">Home</a></li>
-                     <li> <a href="#about">About</a></li>
-                    <li><a href="#search">Search</a></li>
-                   </ul>
-                <div class = "lang_ch">
-                    <img
-                    src = {lang}
-                    height = "30"
-                    width = "auto"
-                    alt = "lang"
-                    />
-                </div>
-                </menu>
-                <task_name>
-                    <p>СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ</p>
-                </task_name>
-                </>
+                {
+                    <>
+                        <div class = "menu_back"> </div>
+                        <menu>
+                            <img
+                                src = {logo}
+                                height = "45"
+                                width = "auto"
+                                alt = "logo"
+                            />
+                            <ul class = "links">
+                                <li><a href="/UID_lab2">Home</a></li>
+                                <li> <a href="#about">About</a></li>
+                                <li><a href="#search">Search</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="/ListOfPerson">List of person</a></li>
+                            </ul>
+                            <div class = "lang_ch">
+                                <img
+                                    src = {lang}
+                                    height = "30"
+                                    width = "auto"
+                                    alt = "lang"
+                                />
+                            </div>
+                        </menu>
+                        <task_name>
+                            <p>СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ</p>
+                        </task_name>
+                    </>
                 }
 
             </nav>

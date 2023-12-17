@@ -15,6 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   justify-items: flex-start ;
   justify-content: space-between;
+
 }
 .person-cards{
   display: flex;
