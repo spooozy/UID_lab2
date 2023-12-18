@@ -6,16 +6,15 @@
     justify-content:space-evenly;
     flex-wrap: wrap;
 }
-
-.app-footer{
+.app-footer {
     margin: auto;
-    margin-bottom:2rem;
-    margin-top:2rem;
-    max-width:95%;
-    box-sizing:border-box;
-        padding: 10px 20px 10px 20px;
-        border: 2px solid #5d191d;
-        border-radius:7px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    max-width: 95%;
+    box-sizing: border-box; /* Перенесено в блок свойств */
+    padding: 10px 20px;
+    border: 2px solid #5d191d;
+    border-radius: 7px;
     background: linear-gradient(white, 90%, #E1BEC0);
 }
 
