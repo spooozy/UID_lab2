@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "../Components/Gallery";
-import TimeLine from "../Components/Hrono";
+import VertTimeLine from "../Components/Hrono2";
 import {useParams} from "react-router-dom";
 import peopleData from "../Data/peopleData.json"
 const PersonInfo = () => {
@@ -19,7 +19,7 @@ const PersonInfo = () => {
                 </div>
             </div>
                 <Gallery element={gallery} />
-                <TimeLine element={biography}/>
+                <VertTimeLine element={biography}/>
         </>
 
 );

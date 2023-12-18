@@ -1,89 +1,31 @@
-
- .persons_info {
-    height:10rem;
-    width:20rem;
-    margin-left:auto;
-    margin-right:auto;
- }
-
-.person_wrapper {
-    width:90%;
-    min-height:35rem;
-    max-height:40rem;
-    margin-left:auto;
-    margin-right:auto;
-    box-sizing:border-box;
-    padding: 10px 20px 10px 20px;
-    border: 2px solid black;
-    border-radius:6px;
-    margin-bottom:5rem;
+.cont {
+    margin: 0;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.person_wrapper h1{
-    color:black;
-    text-align:center;
-    margin-bottom:1rem;
-    font-weight:bold;
-    font-size:1.8rem;
-
- }
-
-.person_wrapper h1:hover{
-     color:#670101;
-     -webkit-transition: all 0.3s ease;
-     transition: all 0.3s ease;
-}
-
- .persons_info {
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-    height:30rem;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
- }
-
- .persons_info persons_bio{
-    text-align:left;
-    height:26.8rem;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    margin-left:2rem;
-    color:black;
-    font-size:1.2rem;
-    border-left: 4px solid #670101;
+.pers-day-card {
+    width: 650px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #4e4e50;
+    border-radius: 7px;
     padding: 10px;
- }
+    text-align: center;
+    background: #4e4e50;
+}
 
- persons_bio p{
-    font-size:1rem;
- }
+.pers-day-card .class-text {
+    text-align: center;
+    width: 450px;
+}
 
- .persons_info img{
-    height:30rem;
-    width:auto;
- }
-
- button{
-    margin-top: 1rem;
-    margin-left:2rem;
-    width:100%;
-    color:black;
-    font-weight:bold;
-    padding: 8px 22px;
-    border-radius:6px;
-    background:white;
-    transition:all 0.2s ease;
- }
-
-    button:active{
-    background:#670101;
-    opacity: .7;
-    transform:scale(0.96);
- }
-
- right_side{
-    height:30rem;
- }
+.day-image {
+    height: 550px;
+}
