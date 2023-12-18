@@ -7,6 +7,7 @@ const PersonCard = ({ person }) => {
     const {id, name, years, img, link } = person;
 
     return (
+    <>
         <div className="person-card">
             <div className="class-text">
                 <h2>{name}</h2>
@@ -18,6 +19,7 @@ const PersonCard = ({ person }) => {
                <button >Learn more</button>
             </Link>
         </div>
+    </>
     );
 };
 

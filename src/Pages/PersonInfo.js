@@ -9,6 +9,8 @@ import Data from "../Data/peopleData.json";
 import YoutubeEmbed from "../Components/YoutubeEmbed";
 import {useLanguage} from "../Components/Language";
 import Geolocation from "../Components/Geolocation";
+import './PersonInfo.css';
+
 const PersonInfo = () => {
     const { language, getTextsByLanguage } = useLanguage();
     const peopleData = getTextsByLanguage();
@@ -22,6 +24,7 @@ const PersonInfo = () => {
     ];
     return (
         <>
+        <div className = "personal-info">
             <div className="cont">
                 <div className="person-card">
                     <div className="class-text">
@@ -38,6 +41,7 @@ const PersonInfo = () => {
                 <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
             {/*<Geolocation elem={geolocation}/>*/}
+
         </>
 
 );

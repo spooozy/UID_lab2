@@ -33,13 +33,12 @@
  }
 
 .person_wrapper h1:hover{
-     color:#670101;
+     color:#5D181D;
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
 }
 
  .persons_info {
-    width:80%;
     margin-left:auto;
     margin-right:auto;
     height:auto;
@@ -54,11 +53,19 @@
      width:auto;
   }
 .persons_bio {
+    width:90%;
     text-align:center;
     color:black;
 }
 
+.persons_bio h2{
+    font-weight: bold;
+    color:#5D181D;
+    font-size: 3vh;
+}
+
 .persons_bio h3{
+    width:90%;
     font-size: 3vh;
 }
 
@@ -66,31 +73,11 @@
     font-size:2vh;
 }
 
- /*.persons_info persons_bio{
-    text-align:left;
-    height:26.8rem;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    margin-left:2rem;
-    color:black;
-    font-size:1.2rem;
-    border-left: 4px solid #670101;
-    padding: 10px;
- }
 
- persons_bio p{
-    font-size:1rem;
- }
-
- .persons_info img{
-    height:30rem;
-    width:auto;
- }
-*/
  button{
     margin-top: 1rem;
     width:60%;
+    height:2.5rem;
     color:black;
     font-weight:bold;
     padding: 8px 22px;
@@ -99,11 +86,13 @@
     transition:all 0.2s ease;
  }
 
-.pers-day-card .class-text {
-    text-align: center;
-    width: 450px;
-}
+button:hover{
+    background:#670101;
+    opacity: .7;
+    transform:scale(0.96);
+    color:white;
+ }
 
-.day-image {
-    height: 550px;
-}
+ right_side{
+    height:30rem;
+ }

@@ -4,7 +4,7 @@ import './Header.css';
 import logo from '../Images/logo.png';
 import lang from '../Images/lang.png';
 import bars from '../Images/bars.png';
-import { Link } from 'react-router-dom';
+import {Link } from 'react-router-dom'
 
 const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
                     />
                     <ul className="links">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/ListOfPerson">List of person</Link></li>
+                        <li><Link to="/ListOfPerson">List</Link></li>
                     </ul>
                     <div className="lang_ch">
                         <img

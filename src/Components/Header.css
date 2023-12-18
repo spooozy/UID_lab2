@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+. app_header{
+    position: absolute;
+    height:50px;
+}
+
+.menu_back{
+    background-color:#5D181D;
+    height:55px;
+    width:100%;
 header {
     z-index: 1000;
     position: fixed;
@@ -94,6 +103,9 @@ button:hover {
     margin-left: 30%;
     cursor: pointer;
 }
+.toggle_img{
+    background-color:blue;
+}
 
 .app-header a {
     text-decoration: none;
@@ -117,6 +129,10 @@ button:hover {
     transition: all 0.4s ease;
 }
 
+.app-header{
+    position:relative;
+    padding:0 2rem;
+}
 
 .nav {
     width: 100%;

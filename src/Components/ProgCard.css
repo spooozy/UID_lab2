@@ -29,6 +29,9 @@
     color:#670101;
     font-size:1rem;
 }
+.prog-card: hover{
+    background-color:blue;
+}
 
 .prog-card a:hover{
 
