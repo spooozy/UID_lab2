@@ -1,6 +1,9 @@
 import React from "react";
+
+import VertTimeLine from "../Components/Hrono2";
+
 import ImageSlider from "../Components/ImageSlider";
-import TimeLine from "../Components/Hrono";
+
 import {useParams} from "react-router-dom";
 import Data from "../Data/peopleData.json";
 import YoutubeEmbed from "../Components/YoutubeEmbed";
@@ -27,11 +30,11 @@ const PersonInfo = () => {
                     <img src={process.env.PUBLIC_URL + img} className="day-image" />
                 </div>
             </div>
-            <div className="container-slider">
+
+                <div className="container-slider">
                 <ImageSlider slides={slides} />
             </div>
-
-            <TimeLine element={biography}/>
+                <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
         </>
 
