@@ -1,5 +1,5 @@
-const Geolocation = (elem) => {
-    return(
+const Geolocation = ({ elem }) => {
+    return (
         <div className="map">
             <iframe
                 src={elem}
@@ -8,10 +8,11 @@ const Geolocation = (elem) => {
                 style={{ border: '0' }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade">
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Карта местоположения"
-            </iframe>
+            ></iframe>
         </div>
-    )
-}
+    );
+};
+
 export default Geolocation;

@@ -40,8 +40,8 @@ const PersonInfo = () => {
             </div>
                 <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
-            {/*<Geolocation elem={geolocation}/>*/}
-        </div>
+            <Geolocation elem={geolocation}/>
+            </div>
         </>
 
 );

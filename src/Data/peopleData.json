@@ -3,7 +3,7 @@
     "0": {
       "id": 0,
       "name": "Илон Маск",
-      "years": "1971-",
+      "years": "1971-наши дни",
       "img": "/Images/ElonMask/MaskMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
@@ -30,7 +30,7 @@
         {
           "title": "Самый богатый человек в мире",
           "text": "7 января 2021 года Илон Маск стал богатейшим человеком планеты, сместив основателя Amazon Джеффа Безоса на второе место...",
-          "time": "2021-",
+          "time": "07.01.2021",
           "logo": " "
         }
       ]
@@ -38,7 +38,7 @@
     "1": {
       "id": 1,
       "name": "Джефф Безос",
-      "years": "1964",
+      "years": "1964-наши дни",
       "img": "/Images/JeffBezos/BezosMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
@@ -68,6 +68,7 @@
           "id": 3,
           "title": "Безос сегодня",
           "text": "В 2017 году стал богатейшим человеком мира по версии Forbes...",
+          "time": "Наше время",
           "logo": " "
         }
       ]
@@ -151,7 +152,7 @@
     "4": {
       "id": 4,
       "name": "Билл Гейтс",
-      "years": "1955-",
+      "years": "1955-наши дни",
       "img": "/Images/BillGates/GatesMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
@@ -191,7 +192,7 @@
     "0": {
       "id": 0,
       "name": "Elon Musk",
-      "years": "1971-",
+      "years": "1971-nowadays",
       "img": "/Images/ElonMask/MaskMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
@@ -218,7 +219,7 @@
         {
           "title": "The Richest Person in the World",
           "text": "On January 7, 2021, Elon Musk became the world's richest person, surpassing Amazon's founder Jeff Bezos...",
-          "time": "2021-",
+          "time": "07.01.2021",
           "logo": " "
         }
       ]
@@ -226,7 +227,7 @@
     "1": {
       "id": 1,
       "name": "Jeff Bezos",
-      "years": "1964",
+      "years": "1964-nowadays",
       "img": "/Images/JeffBezos/BezosMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
@@ -256,6 +257,7 @@
           "id": 3,
           "title": "Bezos Today",
           "text": "In 2017, he became the world's richest person according to Forbes...",
+          "time": "nowadays",
           "logo": " "
         }
       ]
@@ -339,7 +341,7 @@
     "4": {
       "id": 4,
       "name": "Bill Gates",
-      "years": "1955-",
+      "years": "1955-nowadays",
       "img": "/Images/BillGates/GatesMain.jpg",
       "link": "#",
       "logo": "/Images/events/Model-T.png",
