@@ -1,6 +1,6 @@
 .container-slider{
     width:50%;
-    height: 70vh;
+    height: 45rem;
     margin: 0 auto;
     color: #000;
 }
@@ -9,6 +9,10 @@
     height: 100%;
     border-radius: 10px;
     position: relative;
+    display:flex;
+    flex-direction:column;
+    display-content:center;
+    justify-content:space-around;
 }
 .slide {
     height: 100%;

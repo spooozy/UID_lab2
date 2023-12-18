@@ -1,5 +1,7 @@
 .gallery-container
 {
-    width:60%;
+    width:40%;
     height:auto;
+    display:flex;
+    display-items:center;
 }

@@ -1,9 +1,8 @@
 
 .person-card {
-    width: 35%;
-    max-height: 50rem;
+    width: 30rem;
+    height: 50rem;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -32,22 +31,23 @@
 .class-text h2 {
     font-weight: bold;
     color:#5D181D;
-    font-size: 4vh;
+    font-size: 3.5vw;
 }
 
 p {
      color:black;
-     font-size: 3vh;
+     font-size: 3vw;
      text-align:center;
 }
 .person-card img{
-width-max:80%;
+    max-width:80%;
     width:auto;
     height:60%;
-
 }
 
 .button{
+    max-width:80%;
     text-align:center;
 }
+
 

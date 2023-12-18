@@ -1,16 +1,4 @@
 
-
-/* .persons_info {
-    width:85%;
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content: space-around;
- }*/
-
 .person_wrapper {
     width:90%;
     height:auto;
@@ -23,13 +11,18 @@
     margin-bottom:5rem;
 }
 
+.person_wrapper:hover{
+    background: radial-gradient(white 70%, #E1BEC0);
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
 .person_wrapper h1{
     color:black;
     text-align:center;
     margin-bottom:1rem;
     font-weight:bold;
-    font-size:1.7rem;
-
+    font-size:3vw;
  }
 
 .person_wrapper h1:hover{
@@ -49,8 +42,9 @@
  }
 
  .persons_info img{
-     max-height:15rem;
-     width:auto;
+     width:95%;
+     max-width:300px;
+     height:auto;
   }
 .persons_bio {
     width:90%;
@@ -61,16 +55,17 @@
 .persons_bio h2{
     font-weight: bold;
     color:#5D181D;
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 .persons_bio h3{
-    width:90%;
-    font-size: 3vh;
+    width:100%;
+    font-size: 3vw;
+    margin-bottom:5px;
 }
 
 .persons_bio h4{
-    font-size:2vh;
+    font-size:2vw;
 }
 
 
