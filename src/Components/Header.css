@@ -8,11 +8,12 @@
 }
 
 
-.menu_back{
-    background-color:#5D181D;
-    height:55px;
-    width:100%;
-    }
+.menu_back {
+    background-color: #5D181D;
+    height: 55px;
+    width: 100%;
+}
+
 header {
     z-index: 1000;
     position: fixed;
