@@ -1,6 +1,6 @@
 import React from "react";
 
-import Data from '../Data/peopleData.json';
+import peopleData from '../Data/peopleData.json';
 import PersonCard from "../Components/PersonCard";
 import '../App.css';
 import {useLanguage} from "../Components/Language";
