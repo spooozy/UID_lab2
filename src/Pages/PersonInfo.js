@@ -8,12 +8,13 @@ import {useParams} from "react-router-dom";
 import Data from "../Data/peopleData.json";
 import YoutubeEmbed from "../Components/YoutubeEmbed";
 import {useLanguage} from "../Components/Language";
+import Geolocation from "../Components/Geolocation";
 const PersonInfo = () => {
     const { language, getTextsByLanguage } = useLanguage();
     const peopleData = getTextsByLanguage();
     const {id} = useParams();
     const selectedPerson=peopleData[id];
-    const { name, years, img, gallery, biography, linkOnVideo } = selectedPerson;
+    const { name, years, img, geolocation, gallery, biography, linkOnVideo } = selectedPerson;
     const slides = [
         {url: process.env.PUBLIC_URL+ gallery.img1},
         {url: process.env.PUBLIC_URL+ gallery.img2},
@@ -36,6 +37,7 @@ const PersonInfo = () => {
             </div>
                 <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
+            {/*<Geolocation elem={geolocation}/>*/}
         </>
 
 );
