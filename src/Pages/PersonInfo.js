@@ -1,12 +1,24 @@
 import React from "react";
-import Gallery from "../Components/Gallery";
+
 import VertTimeLine from "../Components/Hrono2";
+
+import ImageSlider from "../Components/ImageSlider";
+
 import {useParams} from "react-router-dom";
-import peopleData from "../Data/peopleData.json"
+import Data from "../Data/peopleData.json";
+import YoutubeEmbed from "../Components/YoutubeEmbed";
+import {useLanguage} from "../Components/Language";
 const PersonInfo = () => {
+    const { language, getTextsByLanguage } = useLanguage();
+    const peopleData = getTextsByLanguage();
     const {id} = useParams();
     const selectedPerson=peopleData[id];
-    const { name, years, img, gallery, biography } = selectedPerson;
+    const { name, years, img, gallery, biography, linkOnVideo } = selectedPerson;
+    const slides = [
+        {url: process.env.PUBLIC_URL+ gallery.img1},
+        {url: process.env.PUBLIC_URL+ gallery.img2},
+        {url: process.env.PUBLIC_URL+ gallery.img3}
+    ];
     return (
         <>
             <div className="cont">
@@ -18,8 +30,12 @@ const PersonInfo = () => {
                     <img src={process.env.PUBLIC_URL + img} className="day-image" />
                 </div>
             </div>
-                <Gallery element={gallery} />
+
+                <div className="container-slider">
+                <ImageSlider slides={slides} />
+            </div>
                 <VertTimeLine element={biography}/>
+            <YoutubeEmbed embedId={linkOnVideo}/>
         </>
 
 );

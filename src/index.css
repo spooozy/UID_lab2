@@ -33,3 +33,8 @@ a {
   text-decoration: none; /* Убрать подчеркивание ссылки */
   color: inherit; /* Использовать цвет текста из родительского элемента */
 }
+
+.Header{
+    position:sticky;
+    top: 0;
+}

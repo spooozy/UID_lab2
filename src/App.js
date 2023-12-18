@@ -1,13 +1,13 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import peopleData from './Data/peopleData.json';
+import Data from './Data/peopleData.json';
 import Info from "./Components/Info";
 import './App.css';
 import Main from './Components/Main';
 import PersonInfo from "./Pages/PersonInfo";
 import ListOfPerson from "./Pages/ListOfPerson";
+import { useLanguage } from './Components/Language';
 import {
     Route,
     Routes,
@@ -15,7 +15,8 @@ import {
 } from "react-router-dom";
 
 const App = () => {
-
+    const { language, getTextsByLanguage } = useLanguage();
+    const peopleData = getTextsByLanguage();
     const currentTimeMillis = Date.now();
     const initialIndex = Math.floor(currentTimeMillis / (1000 * 60*60*24)) % 5;
     const [selectedPerson, setSelectedPerson] = useState(peopleData[initialIndex]);//начальное значение
@@ -33,7 +34,6 @@ const App = () => {
         <HashRouter>
             <div className="app">
                 <Header />
-                <Info/>
                 <Routes>
                     <Route exact path="/" element={<Main person={selectedPerson} />} />
                     <Route path="/ListOfPerson" element={<ListOfPerson/>} />

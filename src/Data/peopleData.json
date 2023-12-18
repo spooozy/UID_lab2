@@ -1,210 +1,378 @@
 {
-  "0": {
-    "id": 1,
-    "name": "Илон Маск",
-    "years": "1971-",
-    "img": "/Images/ElonMask/MaskMain.jpg",
-    "link": "#",
-    "logo": "/Images/events/Model-T.png",
-    "linkOnVideo": "link",
-    "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
-    "gallery":
-      {
+  "ru": {
+    "0": {
+      "id": 0,
+      "name": "Илон Маск",
+      "years": "1971-",
+      "img": "/Images/ElonMask/MaskMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "2BfMuHDfGJI",
+      "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
+      "gallery": {
         "img1": "/Images/ElonMask/MaskYoung.jpg",
         "img2": "/Images/ElonMask/MaskOlder.jpg",
         "img3": "/Images/ElonMask/MaskOld.jpg"
-      }
-    ,
-    "biography": [
-      {
-        "title": "Рождение",
-        "text": "Илон Маск  родился 28 июня 1971 г. в Претории (ЮАР). Его отец - англичанин, уроженец ЮАР, имел свой инженерный бизнес, мать, приехавшая в ЮАР из Канады, была моделью, затем диетологом. После развода родителей Илон Маск жил в основном с отцом в Африке.",
-        "time": "28.10.1971",
-        "logo": "birth"
       },
-      {
-        "title": "Учреждение своих самых влиятельных компаний",
-        "text": "В 1999 году Маск стал соучредителем онлайн-банка X.com, который в 2000 году конгломеративным путем консолидировался с Confinity и образовал PayPal. В 2002 году компания была куплена eBay за 1,5 миллиарда долларов. В 2002 году Маск основал SpaceX, компанию по производству аэрокосмической техники и оказанию услуг космического транспорта, генеральным директором и главным инженером которой он является. В 2004 году он присоединился к производителю электромобилей Tesla в качестве председателя совета директоров и архитектора проекта, а в 2008 году стал её генеральным директором.",
-        "time": "1999-2004",
-        "logo": "success"
-      },
-      {
-        "title": "Самый богатый человек в мире",
-        "text": "7 января 2021 года Илон Маск стал богатейшим человеком планеты, сместив основателя Amazon Джеффа Безоса на второе место...",
-        "time": "2021-",
-        "logo": " "
-      }
-    ]
-  },
-
-
-
-  "1": {
-    "id": 2,
-    "name": "Джефф Безос",
-    "years": "1964",
-    "img": "/Images/JeffBezos/BezosMain.jpg",
-    "link": "#",
-    "logo": "/Images/events/Model-T.png",
-    "linkOnVideo": "link",
-    "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
-    "gallery":
-      {
+      "biography": [
+        {
+          "title": "Рождение",
+          "text": "Илон Маск  родился 28 июня 1971 г. в Претории (ЮАР). Его отец - англичанин, уроженец ЮАР, имел свой инженерный бизнес, мать, приехавшая в ЮАР из Канады, была моделью, затем диетологом. После развода родителей Илон Маск жил в основном с отцом в Африке.",
+          "time": "28.10.1971",
+          "logo": "birth"
+        },
+        {
+          "title": "Учреждение своих самых влиятельных компаний",
+          "text": "В 1999 году Маск стал соучредителем онлайн-банка X.com, который в 2000 году конгломеративным путем консолидировался с Confinity и образовал PayPal. В 2002 году компания была куплена eBay за 1,5 миллиарда долларов. В 2002 году Маск основал SpaceX, компанию по производству аэрокосмической техники и оказанию услуг космического транспорта, генеральным директором и главным инженером которой он является. В 2004 году он присоединился к производителю электромобилей Tesla в качестве председателя совета директоров и архитектора проекта, а в 2008 году стал её генеральным директором.",
+          "time": "1999-2004",
+          "logo": "success"
+        },
+        {
+          "title": "Самый богатый человек в мире",
+          "text": "7 января 2021 года Илон Маск стал богатейшим человеком планеты, сместив основателя Amazon Джеффа Безоса на второе место...",
+          "time": "2021-",
+          "logo": " "
+        }
+      ]
+    },
+    "1": {
+      "id": 1,
+      "name": "Джефф Безос",
+      "years": "1964",
+      "img": "/Images/JeffBezos/BezosMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "V6EVP3AtD4Q",
+      "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
+      "gallery": {
         "img1": "/Images/JeffBezos/BezosYoung.jpg",
         "img2": "/Images/JeffBezos/BezosOlder.jpg",
         "img3": "/Images/JeffBezos/BezosOLD.jpg"
-      }
-    ,
-    "biography": [
-      {
-        "id": 1,
-        "title": "Рождение",
-        "text": "Джеффри Престон Йоргенсен родился 12 января 1964 года в Альбукерке (штат Нью-Мексико), его родители — Жаклин (в девичестве — Гиз) и Теодор Йоргенсен (отец имеет датские корни). При его рождении матери было 17 лет, отцу — 19. Спустя несколько лет родители Джеффри Престона развелись; в апреле 1968 года его мать вышла замуж за кубинского эмигранта Мигеля «Майка» Безоса-младшего,усыновившего четырёхлетнего мальчика и давшего ему свою фамилию",
-        "time": "12.01.1964",
-        "logo": "birth"
       },
-      {
-        "id": 2,
-        "title": "Первые успехи",
-        "text": "В конце 1994 года, в ходе путешествия через страну из Нью-Йорка в Сиэтл, Безос основал интернет-магазин Amazon.com, первоначальные инвестиции в который составили 300 тыс. долларов. Сайт был запущен 16 июля 1995 года, хотя на тот момент он не был до конца закончен: к примеру, на нём можно было заказать отрицательное количество книг. Безос мотивировал это необходимостью опередить конкурентов. Компания начиналась как книжный онлайн-магазин и расширилась до продажи большого ассортимента продуктов и сервисов, включая видео- и аудиотрансляции",
-        "time": "16.07.1995",
-        "logo": "success"
-      },
-      {
-        "id": 3,
-        "title": "Безос сегодня",
-        "text": "В 2017 году стал богатейшим человеком мира по версии Forbes...",
-        "logo": " "
-      }
-    ]
-  },
-
-
-
-  "2": {
-    "id": 1,
-    "name": "Генри Форд",
-    "years": "1863-1947",
-    "img": "/Images/HenryFord/FordMain.jpg",
-    "link": "#",
-    "logo": "/Images/events/Model-T.png",
-    "linkOnVideo": "link",
-    "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
-    "gallery":
-      {
+      "biography": [
+        {
+          "id": 1,
+          "title": "Рождение",
+          "text": "Джеффри Престон Йоргенсен родился 12 января 1964 года в Альбукерке (штат Нью-Мексико), его родители — Жаклин (в девичестве — Гиз) и Теодор Йоргенсен (отец имеет датские корни). При его рождении матери было 17 лет, отцу — 19. Спустя несколько лет родители Джеффри Престона развелись; в апреле 1968 года его мать вышла замуж за кубинского эмигранта Мигеля «Майка» Безоса-младшего,усыновившего четырёхлетнего мальчика и давшего ему свою фамилию",
+          "time": "12.01.1964",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Первые успехи",
+          "text": "В конце 1994 года, в ходе путешествия через страну из Нью-Йорка в Сиэтл, Безос основал интернет-магазин Amazon.com, первоначальные инвестиции в который составили 300 тыс. долларов. Сайт был запущен 16 июля 1995 года, хотя на тот момент он не был до конца закончен: к примеру, на нём можно было заказать отрицательное количество книг. Безос мотивировал это необходимостью опередить конкурентов. Компания начиналась как книжный онлайн-магазин и расширилась до продажи большого ассортимента продуктов и сервисов, включая видео- и аудиотрансляции",
+          "time": "16.07.1995",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Безос сегодня",
+          "text": "В 2017 году стал богатейшим человеком мира по версии Forbes...",
+          "logo": " "
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Генри Форд",
+      "years": "1863-1947",
+      "img": "/Images/HenryFord/FordMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "oaFpHYpDNZ8",
+      "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
+      "gallery": {
         "img1": "/Images/HenryFord/FordYoung.jpg",
         "img2": "/Images/HenryFord/FordOlder.jpg",
         "img3": "/Images/HenryFord/FordOLD.jpg"
-      }
-    ,
-    "biography": [
-      {
-        "id": 1,
-        "title": "Рождение",
-        "text": "Генри Форд (Henry Ford) родился 30 июля 1863 года в поселке Спрингфилд, недалеко от Дирборна (штат Мичиган). Он был старшим из шести детей эмигрантов из Ирландии Уильяма (William Ford) и Мэри Форд (Mary Ford), которые владели преуспевающим фермерским хозяйством. Детство Генри прошло на родительской ферме, где он помогал семье и посещал сельскую школу.",
-        "time": "30.07.1863",
-        "logo": "birth"
       },
-      {
-        "id": 2,
-        "title": "Первые компании",
-        "text": "В 1899 году, уволившись из компании Edison Illuminating, Генри Форд основал собственную фирму Detroit Automobile. Несмотря на то, что через год предприятие обанкротилось, Форд успел собрать несколько гоночных автомобилей. В 1903 году двенадцать бизнесменов из штата Мичиган во главе с Генри Фордом основали компанию Ford Motor. Форд держал 25,5% акций предприятия и занимал должности вице-президента и главного инженера компании.",
-        "time": "1899-1903",
-        "logo": "success"
-      },
-      {
-        "id": 3,
-        "title": "Появление Ford Model T",
-        "text": "В 1908 году Генри Форд воплотил в жизнь свою мечту, выпустив модель 'T' — надежный и недорогой автомобиль, который стал одной из самых массовых и популярных машин своего времени. Автомобилем Форда было просто управлять, он не требовал сложного технического обслуживания и мог проехать даже по сельским дорогам, став средством передвижения, а не игрушкой для богатых. В 1913 году было налажено конвейерное производство модели, что привело к значительному снижению себестоимости.",
-        "time": "1908",
-        "logo": " "
-      }
-    ]
-  },
-
-
-
-  "3": {
-    "id": 1,
-    "name": "Дэвид Рокфеллер",
-    "years": "1915-2017",
-    "img": "/Images/DavidRockefeller/RockefellerMain.jpg",
-    "link": "#",
-    "logo": "/Images/events/Model-T.png",
-    "linkOnVideo": "link",
-    "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
-    "gallery":
-      {
+      "biography": [
+        {
+          "id": 1,
+          "title": "Рождение",
+          "text": "Генри Форд (Henry Ford) родился 30 июля 1863 года в поселке Спрингфилд, недалеко от Дирборна (штат Мичиган). Он был старшим из шести детей эмигрантов из Ирландии Уильяма (William Ford) и Мэри Форд (Mary Ford), которые владели преуспевающим фермерским хозяйством. Детство Генри прошло на родительской ферме, где он помогал семье и посещал сельскую школу.",
+          "time": "30.07.1863",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Первые компании",
+          "text": "В 1899 году, уволившись из компании Edison Illuminating, Генри Форд основал собственную фирму Detroit Automobile. Несмотря на то, что через год предприятие обанкротилось, Форд успел собрать несколько гоночных автомобилей. В 1903 году двенадцать бизнесменов из штата Мичиган во главе с Генри Фордом основали компанию Ford Motor. Форд держал 25,5% акций предприятия и занимал должности вице-президента и главного инженера компании.",
+          "time": "1899-1903",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Появление Ford Model T",
+          "text": "В 1908 году Генри Форд воплотил в жизнь свою мечту, выпустив модель 'T' — надежный и недорогой автомобиль, который стал одной из самых массовых и популярных машин своего времени. Автомобилем Форда было просто управлять, он не требовал сложного технического обслуживания и мог проехать даже по сельским дорогам, став средством передвижения, а не игрушкой для богатых. В 1913 году было налажено конвейерное производство модели, что привело к значительному снижению себестоимости.",
+          "time": "1908",
+          "logo": " "
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "Дэвид Рокфеллер",
+      "years": "1915-2017",
+      "img": "/Images/DavidRockefeller/RockefellerMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "Iv912x8oAvY",
+      "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
+      "gallery": {
         "img1": "/Images/DavidRockefeller/RockefellerYoung.jpg",
         "img2": "/Images/DavidRockefeller/RockefellerOlder.jpg",
         "img3": "/Images/DavidRockefeller/RockefellerOLD.jpg"
-      }
-    ,
-    "biography": [
-      {
-        "id": 1,
-        "title": "Рождение",
-        "text": "Дэвид Рокфеллер родился в Нью-Йорке в доме 10 по Западной 54-й улице. Он являлся внуком нефтяного магната и первого в истории долларового миллиардера Джона Д. Рокфеллера, основателя Стандарт Ойл. Младший брат 41-го вице-президента США Нельсона Рокфеллера и 37-го губернатора Арканзаса Уинтропа О. Рокфеллера.",
-        "time": "12.06.1915",
-        "logo": "birth"
       },
-      {
-        "id": 2,
-        "title": "Первые шаги в бизнесе",
-        "text": "Дэвид Рокфеллер начал карьеру в Chase National Bank в 1946 году. Дэвид принял такое решение во многом по совету своего дяди Уинтропа Олдрича. Другой причиной было то, что крупнейшим акционером (4 %) Chase National Bank был отец Дэвида, Джон Рокфеллер-младший. Chase National Bank в то время был несколько парадоксальной структурой. Один из крупнейших банков мира с сильнейшими акционерами существенно отставал от конкурентов по части организации и планирования. Дэвид начал карьеру в качестве ассистента управляющего в иностранном департаменте. Это была низкая должность с окладом[8] в 3,5 тысячи долларов. На этом должности он проработал три года. Благодаря ротации ему удалось поучаствовать в работе каждого из 33 подразделений иностранного отдела банка.",
-        "time": "1946",
-        "logo": "success"
-      },
-      {
-        "id": 3,
-        "title": "Успех в Chase Manhattan Bank",
-        "text": "В 1961 году Дэвид Рокфеллер стал президентом Chase Manhattan Bank, а в 1969 году получил должность председателя совета директоров. Одним из успехов Рокфеллера во главе Chase Manhattan Bank стал выход на рынок СССР. В 1964 году он лично общался с Никитой Хрущёвым. В мемуарах Рокфеллера есть целая глава, посвящённая этой беседе. В 1971 году Chase Manhattan Bank помог СССР профинансировать крупную закупку зерна, а в 1973 году открыл свой филиал в Москве. Chase стал первым банком США, получившим лицензию в СССР. Рокфеллер неоднократно приезжал в Советский Союз и беседовал с Косыгиным и Горбачёвым. В 1981 году Рокфеллер покинул должность председателя, в связи с достижением предельно допустимого уставом банка возраста для данной должности. За период его единоличного руководства 'Чейз' превратился в международный банк, работающий в 70 странах, имеющий 63 отделения и 70 представительских офисов за рубежом. Причём последнее направление приносило большую часть дохода, который в течение десятилетия увеличился почти в три раза.",
-        "time": "1961-1981",
-        "logo": " "
-      }
-    ]
-  },
-
-
-
-  "4": {
-    "id": 1,
-    "name": "Билл Гейтс",
-    "years": "1955-",
-    "img": "/Images/BillGates/GatesMain.jpg",
-    "link": "#",
-    "logo": "/Images/events/Model-T.png",
-    "linkOnVideo": "link",
-    "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
-    "gallery": [
-      {
+      "biography": [
+        {
+          "id": 1,
+          "title": "Рождение",
+          "text": "Дэвид Рокфеллер родился в Нью-Йорке в доме 10 по Западной 54-й улице. Он являлся внуком нефтяного магната и первого в истории долларового миллиардера Джона Д. Рокфеллера, основателя Стандарт Ойл. Младший брат 41-го вице-президента США Нельсона Рокфеллера и 37-го губернатора Арканзаса Уинтропа О. Рокфеллера.",
+          "time": "12.06.1915",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Первые шаги в бизнесе",
+          "text": "Дэвид Рокфеллер начал карьеру в Chase National Bank в 1946 году. Дэвид принял такое решение во многом по совету своего дяди Уинтропа Олдрича. Другой причиной было то, что крупнейшим акционером (4 %) Chase National Bank был отец Дэвида, Джон Рокфеллер-младший. Chase National Bank в то время был несколько парадоксальной структурой. Один из крупнейших банков мира с сильнейшими акционерами существенно отставал от конкурентов по части организации и планирования. Дэвид начал карьеру в качестве ассистента управляющего в иностранном департаменте. Это была низкая должность с окладом[8] в 3,5 тысячи долларов. На этом должности он проработал три года. Благодаря ротации ему удалось поучаствовать в работе каждого из 33 подразделений иностранного отдела банка.",
+          "time": "1946",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Успех в Chase Manhattan Bank",
+          "text": "В 1961 году Дэвид Рокфеллер стал президентом Chase Manhattan Bank, а в 1969 году получил должность председателя совета директоров. Одним из успехов Рокфеллера во главе Chase Manhattan Bank стал выход на рынок СССР. В 1964 году он лично общался с Никитой Хрущёвым. В мемуарах Рокфеллера есть целая глава, посвящённая этой беседе. В 1971 году Chase Manhattan Bank помог СССР профинансировать крупную закупку зерна, а в 1973 году открыл свой филиал в Москве. Chase стал первым банком США, получившим лицензию в СССР. Рокфеллер неоднократно приезжал в Советский Союз и беседовал с Косыгиным и Горбачёвым. В 1981 году Рокфеллер покинул должность председателя, в связи с достижением предельно допустимого уставом банка возраста для данной должности. За период его единоличного руководства 'Чейз' превратился в международный банк, работающий в 70 странах, имеющий 63 отделения и 70 представительских офисов за рубежом. Причём последнее направление приносило большую часть дохода, который в течение десятилетия увеличился почти в три раза.",
+          "time": "1961-1981",
+          "logo": " "
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Билл Гейтс",
+      "years": "1955-",
+      "img": "/Images/BillGates/GatesMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "YgDE-d4pfTc",
+      "geolocation": "я пока хз как оно вставляется но скорее всего тоже линкой на карты",
+      "gallery": {
         "img1": "/Images/BillGates/GatesYoung.jpg",
         "img2": "/Images/BillGates/GatesOlder.jpg",
         "img3": "/Images/BillGates/GatesReallyOld.jpg"
-      }
-    ],
-    "biography": [
-      {
-        "id": 1,
-        "title": "Рождение",
-        "text": "Гейтс родился в Сиэтле (штат Вашингтон), в семье корпоративного адвоката Уильяма Генри Гейтса II и члена совета директоров First Interstate Bank, Pacific Northwest Bell и национального совета USWest, United Way Мэри Максвелл Гейтс. Его прадедушка был мэром и сенатором, а дедушка — вице-президентом Национального банка.",
-        "time": "28.10.1955",
-        "logo": "birth"
       },
-      {
-        "id": 2,
-        "title": "Основание Microsoft",
-        "text": "В январе 1975 года Пол Аллен прочитал в журнале Popular Electronics статью о новом персональном компьютере Altair 8800. После прочтения статьи Гейтс связался с президентом компании Micro Instrumentation and Telemetry Systems (MITS), разработчиком нового компьютера Эдом Робертсом и сообщил ему, что он и его друг работают над программным обеспечением данного компьютера (хотя на самом деле Гейтс и Аллен не имели к Altair 8800 никакого отношения, но эмулировали тот процессор). Президент MITS пригласил в свой офис Пола и он продемонстрировал рабочий интерпретатор языка BASIC для их компьютера, и через несколько недель Пол и Билл уже работали на MITS. Свою компанию они думали назвать «Аллен и Гейтс», но посчитали что это больше подходит для юридической конторы, и тогда Пол предложил — Micro-Soft, от microprocessors и software.",
-        "time": "1975",
-        "logo": "success"
+      "biography": [
+        {
+          "id": 1,
+          "title": "Рождение",
+          "text": "Гейтс родился в Сиэтле (штат Вашингтон), в семье корпоративного адвоката Уильяма Генри Гейтса II и члена совета директоров First Interstate Bank, Pacific Northwest Bell и национального совета USWest, United Way Мэри Максвелл Гейтс. Его прадедушка был мэром и сенатором, а дедушка — вице-президентом Национального банка.",
+          "time": "28.10.1955",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Основание Microsoft",
+          "text": "В январе 1975 года Пол Аллен прочитал в журнале Popular Electronics статью о новом персональном компьютере Altair 8800. После прочтения статьи Гейтс связался с президентом компании Micro Instrumentation and Telemetry Systems (MITS), разработчиком нового компьютера Эдом Робертсом и сообщил ему, что он и его друг работают над программным обеспечением данного компьютера (хотя на самом деле Гейтс и Аллен не имели к Altair 8800 никакого отношения, но эмулировали тот процессор). Президент MITS пригласил в свой офис Пола и он продемонстрировал рабочий интерпретатор языка BASIC для их компьютера, и через несколько недель Пол и Билл уже работали на MITS. Свою компанию они думали назвать «Аллен и Гейтс», но посчитали что это больше подходит для юридической конторы, и тогда Пол предложил — Micro-Soft, от microprocessors и software.",
+          "time": "1975",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Контракт с IBM и создание MS-DOS",
+          "text": "В 1981 году корпорация IBM разместила запрос на создание операционной системы, которая должна была использоваться в новом семействе компьютеров IBM PC. Microsoft выкупила права на операционную систему 86-DOS у Seattle Computer Products[en][4] и начала работу по её модификации под требования IBM. Впоследствии IBM лицензировала MS-DOS и выпустила её в августе 1981 года под наименованием PC DOS 1.0. В дальнейшем разработка MS-DOS и PC DOS велась Microsoft и IBM совместно до 1993 года, когда были выпущены два раздельных релиза — 6.0 от Microsoft и 6.1 от IBM",
+          "time": "1981-1993",
+          "logo": " "
+        }
+      ]
+    }
+  },
+  "en": {
+    "0": {
+      "id": 0,
+      "name": "Elon Musk",
+      "years": "1971-",
+      "img": "/Images/ElonMask/MaskMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "2BfMuHDfGJI",
+      "geolocation": "I still don't know how it's inserted but most likely it's also a link to maps",
+      "gallery": {
+        "img1": "/Images/ElonMask/MaskYoung.jpg",
+        "img2": "/Images/ElonMask/MaskOlder.jpg",
+        "img3": "/Images/ElonMask/MaskOld.jpg"
       },
-      {
-        "id": 3,
-        "title": "Контракт с IBM и создание MS-DOS",
-        "text": "В 1981 году корпорация IBM разместила запрос на создание операционной системы, которая должна была использоваться в новом семействе компьютеров IBM PC. Microsoft выкупила права на операционную систему 86-DOS у Seattle Computer Products[en][4] и начала работу по её модификации под требования IBM. Впоследствии IBM лицензировала MS-DOS и выпустила её в августе 1981 года под наименованием PC DOS 1.0. В дальнейшем разработка MS-DOS и PC DOS велась Microsoft и IBM совместно до 1993 года, когда были выпущены два раздельных релиза — 6.0 от Microsoft и 6.1 от IBM",
-        "time": "1981-1993",
-        "logo": " "
-      }
-    ]
+      "biography": [
+        {
+          "title": "Birth",
+          "text": "Elon Musk was born on June 28, 1971, in Pretoria, South Africa. His father, an Englishman and native of South Africa, had his own engineering business. His mother, who came to South Africa from Canada, was a model and later a nutritionist. After his parents' divorce, Elon Musk primarily lived with his father in Africa.",
+          "time": "28.10.1971",
+          "logo": "birth"
+        },
+        {
+          "title": "Founding His Most Influential Companies",
+          "text": "In 1999, Musk co-founded the online bank X.com, which later merged with Confinity in 2000 to form PayPal. In 2002, the company was acquired by eBay for $1.5 billion. In the same year, Musk founded SpaceX, a company focused on aerospace manufacturing and space transport services, where he serves as CEO and chief engineer. In 2004, he joined the electric vehicle manufacturer Tesla as chairman of the board and product architect, later becoming its CEO in 2008.",
+          "time": "1999-2004",
+          "logo": "success"
+        },
+        {
+          "title": "The Richest Person in the World",
+          "text": "On January 7, 2021, Elon Musk became the world's richest person, surpassing Amazon's founder Jeff Bezos...",
+          "time": "2021-",
+          "logo": " "
+        }
+      ]
+    },
+    "1": {
+      "id": 1,
+      "name": "Jeff Bezos",
+      "years": "1964",
+      "img": "/Images/JeffBezos/BezosMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "V6EVP3AtD4Q",
+      "geolocation": "I still don't know how it's inserted but most likely it's also a link to maps",
+      "gallery": {
+        "img1": "/Images/JeffBezos/BezosYoung.jpg",
+        "img2": "/Images/JeffBezos/BezosOlder.jpg",
+        "img3": "/Images/JeffBezos/BezosOLD.jpg"
+      },
+      "biography": [
+        {
+          "id": 1,
+          "title": "Birth",
+          "text": "Jeffrey Preston Jorgensen was born on January 12, 1964, in Albuquerque, New Mexico. His parents were Jacqueline (née Gise) and Theodore Jorgensen (his father has Danish roots). His mother was 17 years old, and his father was 19 when he was born. A few years later, Jeffrey Preston's parents divorced; in April 1968, his mother married Cuban immigrant Miguel 'Mike' Bezos, who adopted the four-year-old boy and gave him his surname.",
+          "time": "12.01.1964",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Initial Success",
+          "text": "At the end of 1994, during a cross-country trip from New York to Seattle, Bezos founded the online store Amazon.com, with an initial investment of $300,000. The site was launched on July 16, 1995, although it was not fully completed at that time; for example, it allowed users to order a negative quantity of books. Bezos motivated this as a necessity to surpass competitors. The company started as an online bookstore and expanded to sell a wide range of products and services, including video and audio streaming.",
+          "time": "16.07.1995",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Bezos Today",
+          "text": "In 2017, he became the world's richest person according to Forbes...",
+          "logo": " "
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Henry Ford",
+      "years": "1863-1947",
+      "img": "/Images/HenryFord/FordMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "oaFpHYpDNZ8",
+      "geolocation": "I still don't know how it's inserted but most likely it's also a link to maps",
+      "gallery": {
+        "img1": "/Images/HenryFord/FordYoung.jpg",
+        "img2": "/Images/HenryFord/FordOlder.jpg",
+        "img3": "/Images/HenryFord/FordOLD.jpg"
+      },
+      "biography": [
+        {
+          "id": 1,
+          "title": "Birth",
+          "text": "Henry Ford was born on July 30, 1863, in the village of Springwells, near Dearborn (Michigan). He was the eldest of six children of Irish immigrants William and Mary Ford, who owned a successful farm. Henry spent his childhood on the family farm, where he helped the family and attended a rural school.",
+          "time": "30.07.1863",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "First Companies",
+          "text": "In 1899, after leaving the Edison Illuminating Company, Henry Ford founded his own company, Detroit Automobile. Despite the company going bankrupt a year later, Ford managed to build several racing cars. In 1903, twelve businessmen from Michigan, led by Henry Ford, founded the Ford Motor Company. Ford held 25.5% of the company's shares and held positions as vice president and chief engineer.",
+          "time": "1899-1903",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Introduction of the Ford Model T",
+          "text": "In 1908, Henry Ford realized his dream by releasing the Model 'T' — a reliable and affordable car that became one of the most popular and mass-produced cars of its time. Ford's car was easy to drive, did not require complex technical maintenance, and could even travel on rural roads, becoming a means of transportation rather than a toy for the wealthy. In 1913, the assembly line production of the model was established, leading to a significant reduction in cost.",
+          "time": "1908",
+          "logo": " "
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "David Rockefeller",
+      "years": "1915-2017",
+      "img": "/Images/DavidRockefeller/RockefellerMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "Iv912x8oAvY",
+      "geolocation": "I still don't know how it's inserted but most likely it's also a link to maps",
+      "gallery": {
+        "img1": "/Images/DavidRockefeller/RockefellerYoung.jpg",
+        "img2": "/Images/DavidRockefeller/RockefellerOlder.jpg",
+        "img3": "/Images/DavidRockefeller/RockefellerOLD.jpg"
+      },
+      "biography": [
+        {
+          "id": 1,
+          "title": "Birth",
+          "text": "David Rockefeller was born in New York at 10 West 54th Street. He was the grandson of oil magnate and the first-ever dollar billionaire John D. Rockefeller, the founder of Standard Oil. The younger brother of the 41st Vice President of the United States, Nelson Rockefeller, and the 37th Governor of Arkansas, Winthrop O. Rockefeller.",
+          "time": "12.06.1915",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Early Career",
+          "text": "David Rockefeller began his career at Chase National Bank in 1946, largely following the advice of his uncle Winthrop Aldrich. Another reason was that his father, John D. Rockefeller Jr., was the largest shareholder (4%) of Chase National Bank. At that time, Chase National Bank was somewhat paradoxical. One of the world's largest banks with strong shareholders significantly lagged behind competitors in terms of organization and planning. David started as an assistant manager in the foreign department. It was a low-level position with a salary of $3,500. He held this position for three years. Due to rotations, he managed to participate in the work of each of the 33 divisions of the bank's foreign department.",
+          "time": "1946",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Success at Chase Manhattan Bank",
+          "text": "In 1961, David Rockefeller became the president of Chase Manhattan Bank and in 1969, he became the chairman of the board of directors. One of Rockefeller's successes at Chase Manhattan Bank was entering the USSR market. In 1964, he personally communicated with Nikita Khrushchev. Rockefeller has a whole chapter in his memoirs dedicated to this conversation. In 1971, Chase Manhattan Bank helped the USSR finance a large grain purchase, and in 1973, it opened its branch in Moscow. Chase became the first US bank to be licensed in the USSR. Rockefeller repeatedly visited the Soviet Union and had conversations with Kosygin and Gorbachev. In 1981, Rockefeller left the chairmanship position, reaching the maximum age limit set by the bank's charter for this position. During his tenure, 'Chase' transformed into an international bank operating in 70 countries, with 63 branches and 70 representative offices abroad. Moreover, the latter direction brought the majority of the income, which almost tripled over a decade.",
+          "time": "1961-1981",
+          "logo": " "
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Bill Gates",
+      "years": "1955-",
+      "img": "/Images/BillGates/GatesMain.jpg",
+      "link": "#",
+      "logo": "/Images/events/Model-T.png",
+      "linkOnVideo": "YgDE-d4pfTc",
+      "geolocation": "I still don't know how it's inserted but most likely it's also a link to maps",
+      "gallery": {
+        "img1": "/Images/BillGates/GatesYoung.jpg",
+        "img2": "/Images/BillGates/GatesOlder.jpg",
+        "img3": "/Images/BillGates/GatesReallyOld.jpg"
+      },
+      "biography": [
+        {
+          "id": 1,
+          "title": "Birth",
+          "text": "Gates was born in Seattle, Washington, to corporate lawyer William Henry Gates II and Mary Maxwell Gates, a member of the boards of directors for First Interstate Bank, Pacific Northwest Bell, and the national board of United Way. His great-grandfather was a mayor and a senator, and his grandfather was a vice president of the National Bank.",
+          "time": "28.10.1955",
+          "logo": "birth"
+        },
+        {
+          "id": 2,
+          "title": "Founding Microsoft",
+          "text": "In January 1975, Paul Allen read an article in Popular Electronics about the new Altair 8800 personal computer. After reading the article, Gates contacted the president of Micro Instrumentation and Telemetry Systems (MITS), the company that developed the new computer, Ed Roberts, and informed him that he and his friend were working on the software for the computer (although Gates and Allen had no connection to Altair 8800, they emulated that processor). The president of MITS invited Paul to his office, and he demonstrated a working interpreter of the BASIC language for their computer. Within a few weeks, Paul and Bill were already working at MITS. They initially thought of naming their company 'Allen and Gates,' but they thought it suited more for a law firm. So, Paul suggested 'Micro-Soft,' derived from microprocessors and software.",
+          "time": "1975",
+          "logo": "success"
+        },
+        {
+          "id": 3,
+          "title": "Contract with IBM and Creation of MS-DOS",
+          "text": "In 1981, IBM Corporation placed a request for an operating system to be used in their new IBM PC computer family. Microsoft acquired the rights to the operating system 86-DOS from Seattle Computer Products and began modifying it to meet IBM's requirements. Subsequently, IBM licensed MS-DOS and released it in August 1981 under the name PC DOS 1.0. Later, the development of MS-DOS and PC DOS was carried out jointly by Microsoft and IBM until 1993 when two separate releases were issued—6.0 by Microsoft and 6.1 by IBM.",
+          "time": "1981-1993",
+          "logo": " "
+        }
+      ]
+    }
   }
 }

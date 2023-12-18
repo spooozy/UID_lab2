@@ -4,11 +4,12 @@ import './Footer.css';
 import ProgDetails from '../Data/progDetails.json';
 import ProgCard from "./ProgCard";
 const Footer = () => {
-
+    {/*successful merge? */}
     return (
     <>
         <footer className="app-footer">
-        <dev_text id ="contact">САЙТ РАЗРАБАТЫВАЛИ:</dev_text>
+        <h1>САЙТ РАЗРАБАТЫВАЛИ</h1>
+
             <div className={"prog-card-container"}>
                 {ProgDetails.map(person=>(<ProgCard key={person.id} person={person}/>))}
             </div>
