@@ -1,4 +1,5 @@
 
+
 /* .persons_info {
     width:85%;
     height:auto;
@@ -32,13 +33,12 @@
  }
 
 .person_wrapper h1:hover{
-     color:#670101;
+     color:#5D181D;
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
 }
 
  .persons_info {
-    width:80%;
     margin-left:auto;
     margin-right:auto;
     height:auto;
