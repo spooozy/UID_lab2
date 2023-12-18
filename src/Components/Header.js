@@ -25,6 +25,7 @@ const Header = () => {
             <header className="app-header">
                 <div className="nav">
                     <img
+                        className="globe"
                         src={logo}
                         height="45"
                         width="auto"
