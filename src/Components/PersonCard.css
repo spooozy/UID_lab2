@@ -41,8 +41,9 @@ p {
      text-align:center;
 }
 .person-card img{
-    width:80%;
-    height:auto;
+width-max:80%;
+    width:auto;
+    height:60%;
 
 }
 
