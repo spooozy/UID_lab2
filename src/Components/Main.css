@@ -86,10 +86,6 @@
     transition:all 0.2s ease;
  }
 
-.pers-day-card .class-text {
-    text-align: center;
-    width: 450px;
-}
 button:hover{
     background:#670101;
     opacity: .7;
@@ -97,6 +93,6 @@ button:hover{
     color:white;
  }
 
-.day-image {
-    height: 550px;
-}
+ right_side{
+    height:30rem;
+ }
