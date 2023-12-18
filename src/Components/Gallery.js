@@ -1,11 +1,12 @@
 import React from 'react'
 import { Carousel, CarouselItem } from 'react-bootstrap';
+import './Gallery.css';
 
 const Gallery = ({ element }) => {
     const {img1, img2, img3} = element;
     return(
         <>
-            <div class="gallery-container">
+            <div className="gallery-container">
                 <h2 >gallery</h2>
                 <div>
                     <Carousel >

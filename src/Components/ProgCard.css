@@ -29,7 +29,7 @@
     color:#670101;
     font-size:1rem;
 }
-
-.prog-card a:hover{
-
+.prog-card: hover{
+    background-color:blue;
 }
+
