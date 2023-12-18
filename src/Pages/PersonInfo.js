@@ -41,7 +41,7 @@ const PersonInfo = () => {
                 <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
             {/*<Geolocation elem={geolocation}/>*/}
-
+        </div>
         </>
 
 );
