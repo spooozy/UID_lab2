@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom'
 import people from '../Data/peopleData.json'
 import { useHistory } from 'react-router-dom';
 import Info from "./Info";
+import {useLanguage} from "./Language";
+import lang from "../Data/translate.json";
 
 
 
@@ -13,6 +15,15 @@ const Main = ({ person }) => {
 
     const { id, name, years, img, biography } = person;
     const { text} = biography[0];
+    const { getLang } = useLanguage();
+    const currentLanguage = getLang();
+    let translatedLang;
+    let translatedData;
+    if(currentLanguage=="ru") {
+        translatedLang = lang.ru.card;
+    } else {
+        translatedLang = lang.en.card;
+    }
     const scrollToTop = () => {
         const scrollStep = -window.scrollY / (1000 / 80); // 1000 - время прокрутки в миллисекундах, 15 - чем меньше, тем медленнее
         const scrollInterval = setInterval(() => {
@@ -28,17 +39,17 @@ const Main = ({ person }) => {
         <>
             <Info/>
             <div className="person_wrapper">
-                <h1>ДЕЯТЕЛЬ ДНЯ</h1>
+                <h1>{translatedLang.title}</h1>
                 <div className="persons_info">
                     <img src={process.env.PUBLIC_URL + img} alt="temp" />
 
                         <div className = "persons_bio">
                             <h2>{name}</h2>
-                            <h3>{years}</h3>
+                            <h3>{translatedLang.year} {years}</h3>
                             <h4>{text}</h4>
 
                         <Link  to={`/PersonInfo/${id}`}>
-                        <button onClick={scrollToTop}>ПОДРОБНЕЕ</button>
+                        <button onClick={scrollToTop}>{translatedLang.btn}</button>
                         </Link>
                         </div>
                 </div>

@@ -1,17 +1,25 @@
 import React from 'react';
 import './Info.css';
+import {useLanguage} from "./Language";
+import lang from "../Data/translate.json";
 const Info = () => {
+    const { getLang } = useLanguage();
+    const currentLanguage = getLang();
+    let translated;
+    if(currentLanguage=="ru") {
+        translated = lang.ru.info;
+    } else    {
+        translated = lang.en.info;
+    }
     return (
     <>
-
         <div className = "wall">
-            <h1>СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ</h1>
+            <h1>{translated.name}</h1>
         </div>
         <div className = "red_line"></div>
         <div className = "info_wrapper">
-        <h1>ИНФОРМАЦИЯ</h1>
-        <p>Данный портал содержит информацию о писателях Беларуси. На основной странице размещена информация о писателе дня и описание команды разработчиков портала. Также портал содержит персональную страницу каждого писателя. На каждой странице имеется описание деятеля: биография, фотогалерея с его изображениями и изображениями его произведений, видео на YouTube о деятеле, место его рождения на карте.
-        </p>
+        <h1>{translated.title}</h1>
+        <p>{translated.text}</p>
         </div>
     </>
     );

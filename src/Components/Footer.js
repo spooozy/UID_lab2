@@ -3,12 +3,21 @@ import React from 'react';
 import './Footer.css';
 import ProgDetails from '../Data/progDetails.json';
 import ProgCard from "./ProgCard";
+import lang from '../Data/translate.json';
+import {useLanguage} from "./Language";
 const Footer = () => {
-    {/*successful merge? */}
+    const { getLang } = useLanguage();
+    const currentLanguage = getLang();
+    let translated;
+    if(currentLanguage=="ru") {
+        translated = lang.ru.footer;
+    } else    {
+        translated = lang.en.footer;
+    }
     return (
     <>
         <footer className="app-footer">
-        <h1>САЙТ РАЗРАБАТЫВАЛИ</h1>
+        <h1>{translated.title}</h1>
 
             <div className={"prog-card-container"}>
                 {ProgDetails.map(person=>(<ProgCard key={person.id} person={person}/>))}

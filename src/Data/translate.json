@@ -1,0 +1,59 @@
+{
+  "ru": {
+    "header": {
+      "home": "Главная",
+      "list": "Список"
+    },
+    "info": {
+      "name": "СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ",
+      "title": "ИНФОРМАЦИЯ",
+      "text": "Данный портал содержит информацию о писателях Беларуси. На основной странице размещена информация о писателе дня и описание команды разработчиков портала. Также портал содержит персональную страницу каждого писателя. На каждой странице имеется описание деятеля: биография, фотогалерея с его изображениями и изображениями его произведений, видео на YouTube о деятеле, место его рождения на карте."
+    },
+    "card": {
+      "title": "ДЕЯТЕЛЬ ДНЯ",
+      "btn": "ПОДРОБНЕЕ",
+      "year": "Года жизни:"
+    },
+    "search": {
+      "title": "ПОИСК ДЕЯТЕЛЯ",
+      "hint": "Искать здесь..."
+    },
+
+    "footer": {
+      "title": "САЙТ РАЗРАБАТЫВАЛИ",
+      "git": "Перейти на гит",
+      "vlad": "Зиновенко Владислав",
+      "liza": "Маталыга Елизавета",
+      "step": "Макаров Степан",
+      "egor": "Головин Егор"
+    }
+  },
+  "en": {
+    "header": {
+      "home": "Home",
+      "list": "List"
+    },
+    "info": {
+      "name": "CREATORS OF INTERNATIONAL CORPORATIONS",
+      "title": "INFORMATION",
+      "text": "This portal contains information about men from Belarus. The main page displays information about the man of the day and a description of the portal development team. The portal also contains a personal page for each man. Each page includes a description of the man: biography, photo gallery with images of the man and their works, YouTube videos about the man, and their birthplace on the map."
+    },
+    "card": {
+      "title": "MAN OF THE DAY",
+      "btn": "READ MORE",
+      "year": "Years of life:"
+    },
+    "search": {
+      "title": "SEARCH MAN",
+      "hint": "Search here..."
+    },
+    "footer": {
+      "title": "SITE DEVELOPED BY",
+      "git": "Go to GitHub",
+      "vlad": "Zinovenko Vladislav",
+      "liza": "Matalyga Elizabeth",
+      "step": "Makarov Stepan",
+      "egor": "Golovin Egor"
+    }
+  }
+}

@@ -10,12 +10,17 @@ export const LanguageProvider = ({ children }) => {
         return data[language]; // Возвращает тексты на выбранном языке
     };
 
+    const getLang = () => {
+        return language; // Возвращает текущий выбранный язык
+    };
+
     return (
-        <LanguageContext.Provider value={{ language, setLanguage, getTextsByLanguage }}>
+        <LanguageContext.Provider value={{ language, setLanguage, getTextsByLanguage, getLang }}>
             {children}
         </LanguageContext.Provider>
     );
 };
+
 
 export const useLanguage = () => {
     const context = useContext(LanguageContext);

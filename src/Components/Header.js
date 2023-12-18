@@ -2,13 +2,23 @@ import React, { useState } from 'react';
 import './Header.css';
 
 import logo from '../Images/logo.png';
-import lang from '../Images/lang.png';
+import language from '../Images/lang.png';
 import bars from '../Images/bars.png';
-import {Link } from 'react-router-dom'
+import {Link } from 'react-router-dom';
+import lang from '../Data/translate.json';
+import {useLanguage} from "./Language";
+
 
 const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false);
-
+    const { getLang, setLanguage} = useLanguage();
+    const currentLanguage = getLang();
+    let translated;
+    if(currentLanguage=="ru") {
+        translated = lang.ru.header;
+    } else    {
+        translated = lang.en.header;
+    }
     const toggleMenu = () => {
         setMenuVisible(!menuVisible);
     };
@@ -18,7 +28,10 @@ const Header = () => {
     const handleToggle = () => {
         setIsOpen(!isOpen);
     };
-
+    const handleLanguageChange = (selectedLanguage) => {
+        setLanguage(selectedLanguage);
+        setMenuVisible(false); // Close language menu after selection
+    };
     return (
         <>
 
@@ -32,22 +45,22 @@ const Header = () => {
                         alt="logo"
                     />
                     <ul className="links">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/ListOfPerson">List</Link></li>
+                        <li><Link to="/">{translated.home}</Link></li>
+                        <li><Link to="/ListOfPerson">{translated.list}</Link></li>
                     </ul>
                     <div className="lang_ch">
                         <img
-                            src={lang}
+                            src={language}
                             height="30"
                             width="auto"
-                            alt="lang"
+                            alt="language"
                             onClick={toggleMenu}
                         />
                         {menuVisible && (
                             <div className="lang-ch-menu">
                                 {/* Implement language change functionality here */}
-                                <button onClick={() => console.log('Кнопка 1 нажата')}>ru</button>
-                                <button onClick={() => console.log('Кнопка 2 нажата')}>en</button>
+                                <button onClick={() => handleLanguageChange('ru')}>ru</button>
+                                <button onClick={() => handleLanguageChange('en')}>en</button>
                             </div>
                         )}
                     </div>
@@ -66,7 +79,7 @@ const Header = () => {
                             <li>
                                 <div className="lang_ch">
                                     <img
-                                        src={lang}
+                                        src={language}
                                         height="30"
                                         width="auto"
                                         alt="lang"
