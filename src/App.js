@@ -33,7 +33,6 @@ const App = () => {
         <HashRouter>
             <div className="app">
                 <Header />
-                <Info/>
                 <Routes>
                     <Route exact path="/" element={<Main person={selectedPerson} />} />
                     <Route path="/ListOfPerson" element={<ListOfPerson/>} />
