@@ -19,12 +19,17 @@
 }
 
 .prog-card h2{
+   font-weight:bold;
    color:#670101;
    font-size:1rem;
 }
 
 .prog-card a{
+    font-weight:bold;
     color:#670101;
     font-size:1rem;
 }
 
+.prog-card a:hover{
+
+}
