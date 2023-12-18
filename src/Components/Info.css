@@ -12,18 +12,19 @@
     max-height:500px;
     background-size: cover;
     background-position:center;
-
+    display:flex;
+    align-items:flex-end;
 }
 
 .wall h1{
-    padding-left:45%;
-    padding-top:15rem;
-    padding-bottom:1.5rem;
-    width:50%;
     text-align: left;
-    font-size: 7vh;
+    font-size: 5vw;
+    max-width:60%;
+    max-font-size:5vw;
     color:white;
-    height:auto;
+    padding-left:10%;
+    padding-top:auto;
+    padding-bottom:5%;
     font-weight:bold;
 }
 
@@ -52,7 +53,7 @@
     width:100%;
     text-align:center;
     color:black;
-    font-size:1.3rem;
+    font-size:1.7rem;
 }
 
 .info_wrapper h1{
@@ -63,5 +64,5 @@
     text-align:center;
     font-weight:bold;
     color:#5d151d;
-    font-size:1.4rem;
+    font-size:2rem;
 }
