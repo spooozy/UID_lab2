@@ -1,7 +1,30 @@
+.tl-part{
+    display:flex;
+    justify-content:space-around;
+}
+
 .tl-part img{
     position: absolute;
-    left: 70px;
+    left: 0px;
     margin-top: 70px;
-    width: 100px;
-    height: 100px;
+    width: 15%;
+    height: auto;
+}
+
+h3
+{
+    width:50%;
+    font-weight:bold;
+    color:#5d151d;
+    font-size:3vw;
+}
+
+p{
+    text-align:justify;
+    font-size:2.5vw;
+}
+
+@media (max-width: 1200px)
+{
+    .tl-part img {display:none}
 }

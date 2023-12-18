@@ -33,11 +33,12 @@ const PersonInfo = () => {
                     </div>
                     <img src={process.env.PUBLIC_URL + img} className="day-image" />
                 </div>
-            </div>
+                 </div>
 
                 <div className="container-slider">
                 <ImageSlider slides={slides} />
             </div>
+
                 <VertTimeLine element={biography}/>
             <YoutubeEmbed embedId={linkOnVideo}/>
             <Geolocation elem={geolocation}/>
