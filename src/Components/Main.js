@@ -31,16 +31,16 @@ const Main = ({ person }) => {
                 <h1>ДЕЯТЕЛЬ ДНЯ</h1>
                 <div className="persons_info">
                     <img src={process.env.PUBLIC_URL + img} alt="temp" />
-                    <right_side>
-                        <persons_bio>
+
+                        <div className = "persons_bio">
                             <h3>{name}</h3>
                             <h3>{years}</h3>
-                            <p>{text}</p>
-                        </persons_bio>
+                            <h4>{text}</h4>
+
                         <Link  to={`/PersonInfo/${id}`}>
                         <button onClick={scrollToTop}>ПОДРОБНЕЕ</button>
                         </Link>
-                    </right_side>
+                        </div>
                 </div>
             </div>
         </>
