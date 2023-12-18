@@ -33,7 +33,7 @@ const Main = ({ person }) => {
                     <img src={process.env.PUBLIC_URL + img} alt="temp" />
 
                         <div className = "persons_bio">
-                            <h3>{name}</h3>
+                            <h2>{name}</h2>
                             <h3>{years}</h3>
                             <h4>{text}</h4>
 

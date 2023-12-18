@@ -9,7 +9,6 @@ const TimeLine = ({ element }) => {
     const {logo}=element;
     return(
         <>
-            <h2 >TimeLine</h2>
             <VerticalTimeline>
                 {element.map((biography) => {
                     return (

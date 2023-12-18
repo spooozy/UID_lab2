@@ -9,15 +9,17 @@
 
 .app-footer{
     margin: auto;
+    margin-bottom:2rem;
+    margin-top:2rem;
     width:90%;
     box-sizing:border-box;
         padding: 10px 20px 10px 20px;
         border: 2px solid #5d191d;
         border-radius:7px;
+    background: linear-gradient(white, 90%, #E1BEC0);
 }
 
 .app-footer h1{
-
     color:#670101;
     font-weight:bold;
     font-size:1.5rem;
