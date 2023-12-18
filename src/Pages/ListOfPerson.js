@@ -1,12 +1,15 @@
 import React from "react";
 
-import peopleData from '../Data/peopleData.json';
+import Data from '../Data/peopleData.json';
 import PersonCard from "../Components/PersonCard";
 import '../App.css';
+import {useLanguage} from "../Components/Language";
 
 
 
 function ListOfPerson() {
+    const { language, getTextsByLanguage } = useLanguage();
+    const peopleData = getTextsByLanguage();
     const dataArray = Object.values(peopleData); // Преобразование объекта в массив
 
     return (
