@@ -4,6 +4,7 @@ import temp_pict from '../Images/temp_pict.jpg'; // импорт изображ�
 import {Link} from 'react-router-dom'
 import people from '../Data/peopleData.json'
 import { useHistory } from 'react-router-dom';
+import Info from "./Info";
 
 
 
@@ -25,6 +26,7 @@ const Main = ({ person }) => {
 
     return (
         <>
+            <Info/>
             <div className="person_wrapper">
                 <h1>ДЕЯТЕЛЬ ДНЯ</h1>
                 <div className="persons_info">
