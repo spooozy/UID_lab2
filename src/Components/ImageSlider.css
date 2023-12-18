@@ -15,16 +15,17 @@
     object-fit: cover;
     border-radius: 10px;
     background-position: center;
-    background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 .rightArrow{
     position: absolute;
     top: 50%;
-    transform: translate(+110%, 0);
+    transform: translate(+100%, 0);
     right: 32px;
-    fontSize: 45px;
+    font-size: 80px;
     color: #000;
-    zIndex: 1;
+    z-index: 1;
     cursor: pointer;
 }
 .leftArrow{
@@ -32,18 +33,27 @@
     top: 50%;
     transform: translate(0, 0);
     right: 32px;
-    fontSize: 45px;
+    font-size: 80px;
     color: #000;
-    zIndex: 1;
+    z-index: 1;
     cursor: pointer;
 }
 .dotContainerSlide{
     display: flex;
     justify-content: center;
-    align-content: space-between;
+    align-content: space-evenly;
+
 }
 .dotSlide{
-    margin: 0 3px;
+    margin: 0 10px;
     cursor: pointer;
     font-size: 20px;
+    width: auto;
+
+}
+
+.rightArrow,
+.leftArrow,
+.dotSlide {
+    user-select: none;
 }

@@ -26,7 +26,7 @@ const PersonInfo = () => {
                 <div className="person-card">
                     <div className="class-text">
                         <h2>{name}</h2>
-                        <p>Годы жизни: {years}</p>
+                        <p>{years}</p>
                     </div>
                     <img src={process.env.PUBLIC_URL + img} className="day-image" />
                 </div>
