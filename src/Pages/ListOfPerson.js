@@ -7,7 +7,7 @@ import {useLanguage} from "../Components/Language";
 
 import './ListOfPerson.css';
 import lang from "../Data/translate.json";
-
+import SearchComponent from "../Components/SearchComponent";
 
 function ListOfPerson() {
     const { language, getTextsByLanguage } = useLanguage();
@@ -17,18 +17,19 @@ function ListOfPerson() {
     const currentLanguage = getLang();
     let translated;
     if(currentLanguage=="ru") {
-        translated = lang.ru.search;
+        translated = lang.ru;
     } else    {
-        translated = lang.en.search;
+        translated = lang.en;
     }
     return (
     <div className = "main">
         <main>
-         <h1>{translated.title}</h1>
+         <h1>{translated.search.title}</h1>
                 <div className = "search">
-                  <input type="text" placeholder={translated.hint}></input>
+                    <SearchComponent/>
                   <search-button type="submit"></search-button>
                 </div>
+            <h3>{translated.list.title}</h3>
             <div className="card-container">
             {dataArray.map(person => (
                 console.log(person.id),

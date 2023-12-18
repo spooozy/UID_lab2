@@ -18,7 +18,6 @@ const Main = ({ person }) => {
     const { getLang } = useLanguage();
     const currentLanguage = getLang();
     let translatedLang;
-    let translatedData;
     if(currentLanguage=="ru") {
         translatedLang = lang.ru.card;
     } else {

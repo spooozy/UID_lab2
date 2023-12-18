@@ -4,6 +4,9 @@
       "home": "Главная",
       "list": "Список"
     },
+    "list": {
+      "title": "Наша база:"
+    },
     "info": {
       "name": "СОЗДАТЕЛИ МЕЖДУНАРОДНЫХ КОРПОРАЦИЙ",
       "title": "ИНФОРМАЦИЯ",
@@ -16,7 +19,11 @@
     },
     "search": {
       "title": "ПОИСК ДЕЯТЕЛЯ",
-      "hint": "Искать здесь..."
+      "hint": "Искать здесь...",
+      "btn": "Поиск",
+      "result": "Результаты поиска:",
+      "noResults": "Ничего не найдено...",
+      "loading": "Загрузка"
     },
 
     "footer": {
@@ -33,6 +40,9 @@
       "home": "Home",
       "list": "List"
     },
+    "list": {
+      "title": "Our base:"
+    },
     "info": {
       "name": "CREATORS OF INTERNATIONAL CORPORATIONS",
       "title": "INFORMATION",
@@ -45,7 +55,11 @@
     },
     "search": {
       "title": "SEARCH MAN",
-      "hint": "Search here..."
+      "hint": "Search here...",
+      "btn": "Search",
+      "result": "Results:",
+      "noResults": "Nothing was founded...",
+      "loading": "Loading..."
     },
     "footer": {
       "title": "SITE DEVELOPED BY",
